@@ -1,0 +1,73 @@
+body { 
+    max-width: 960px;
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 36px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+h2 { 
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+#logo-container {
+    flex-basis: 50%;
+}
+
+#navigation {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    margin-left: 24px;
+}
+
+#hero-container {
+    flex-basis: 100%;
+    margin-top: 60px;
+}
+
+#hero-message {
+    max-width: 70%;
+    margin: auto;
+}
+
+#profile-picture {
+    height: 120px;
+    width: 120px;
+    background: #ebebeb;
+    border-radius: 100%;
+    margin: auto;
+}
