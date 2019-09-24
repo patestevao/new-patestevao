@@ -5,9 +5,10 @@ body {
     flex-flow: row wrap;
     font-family: Helvetica, Arial, sans-serif;
     margin-top: 36px;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
     font-size: 16px;
     line-height: 1.5em;
+    padding: 0 12px;
 }
 
 a {
@@ -117,7 +118,12 @@ header {
 
 .article-preview-content {
     margin-left: 18px;
-    padding-top: 12px;
+    align-self: center;
+    flex-basis: 66%;
+}
+
+.article-preview-image {
+    flex-basis: 34%;
 }
 
 .article-preview-title, .article-preview-summary {
@@ -126,4 +132,59 @@ header {
 
 .article-preview-summary {
     margin-top: 12px;
+}
+
+.all-articles-button-container {
+    margin-top: 36px;
+}
+
+.all-articles-button {
+    padding: 12px 18px;
+    border: 1px solid #222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.all-articles-button-icon {
+    height: 18px;
+    width: auto;
+    padding-left: 12px;
+}
+
+.all-articles-button-text {
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.footer-title {
+    text-align: center;
+}
+
+footer {
+    flex-basis: 100%;
+    margin-top: 84px;
+}
+
+.footer-email {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.footer-social-list {
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-social-items {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.footer-social-links {
+    padding: 0 6px;
 }
