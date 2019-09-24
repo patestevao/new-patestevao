@@ -61,6 +61,7 @@ header {
 
 #logo-container {
     flex-basis: 50%;
+    text-align: left;
 }
 
 #navigation {
@@ -187,4 +188,31 @@ footer {
 
 .footer-social-links {
     padding: 0 6px;
+}
+
+/* Home page media queries */
+
+@media (max-width: 600px) {
+    body {
+        margin-top: 12px;
+    }
+
+    header {
+        flex-flow: column;
+    }
+
+    #navigation {
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    #logo-container {
+        text-align: center;
+    }
+
+    .nav-link {
+        padding: 0 6px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
 }
