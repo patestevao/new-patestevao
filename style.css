@@ -1,19 +1,22 @@
 body {
-    max-width: 936px;
+    /* max-width: 936px; */
+    max-width: 100%;
     display: flex;
     margin: auto;
     flex-flow: row wrap;
     font-family: Helvetica, Arial, sans-serif;
-    margin-top: 36px;
     margin-bottom: 120px;
     font-size: 16px;
     line-height: 1.5em;
-    padding: 0 12px;
-    color: #333;
+    /* padding: 0 12px; */
+    color: #444;
+    /* background: #fce8e9; */
 }
 
 a {
     text-decoration: none;
+    /* color: #3e74cd; */
+    color: #5f5f84;
 }
 
 h1 {
@@ -21,6 +24,7 @@ h1 {
     font-weight: 700;
     text-align: left;
     line-height: 1.5em;
+    /* color: #222; */
 }
 
 h2 {
@@ -53,16 +57,33 @@ ul {
     padding: 0;
 }
 
+.top-section {
+    background: #6d6cab;
+    /* background: linear-gradient(90deg, #525181, #6d6cab); */
+    padding: 36px 12px 0 12px;
+    flex-basis: 100%;
+    color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+}
+
 header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    flex-basis: 100%;
+    flex-basis: 936px;
+    margin: auto;
+    /* background: #f8cecf; */
 }
 
 #logo-container {
     flex-basis: 50%;
     text-align: left;
+}
+
+#logo-image {
+    height: 30px;
+    width: auto;
 }
 
 #navigation {
@@ -73,12 +94,17 @@ header {
 
 .nav-link {
     margin-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: #fff;
 }
 
 #hero-container {
-    flex-basis: 100%;
+    flex-basis: 936px;
+    margin: auto;
     margin-top: 60px;
     margin-bottom: 72px;
+    /* background: #f8cecf; */
 }
 
 #hero-message {
@@ -106,8 +132,11 @@ header {
 .tag-link {
     flex: 0 0 auto;
     margin-right: 12px;
-    padding: 10px;
-    border: 1px solid #222;
+    padding: 12px 10px 10px 10px;
+    border: 2px solid #6d6cab;
+    color: #6d6cab;
+    border-radius: 5px;
+    font-weight: 700;
 }
 
 .tag-link:last-of-type {
@@ -115,7 +144,9 @@ header {
 }
 
 #home-articles-container {
-    max-width: 100%;
+    flex-basis: 936px;
+    margin: auto;
+    margin-top: 48px;
 }
 
 .article-preview-container {
@@ -148,7 +179,10 @@ header {
 
 .all-articles-button {
     padding: 12px 18px;
-    border: 1px solid #222;
+    background: #9C27B0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -170,7 +204,8 @@ header {
 }
 
 footer {
-    flex-basis: 100%;
+    flex-basis: 936px;
+    margin: auto;
     margin-top: 84px;
 }
 
