@@ -202,6 +202,12 @@ header {
     flex-basis: 66%;
 }
 
+.article-preview-date {
+    font-size: 15px;
+    color: #555;
+    margin: 0.8em 0 0 0;
+}
+
 .article-preview-image {
     flex-basis: 34%;
 }
@@ -211,7 +217,7 @@ header {
 }
 
 .article-preview-summary {
-    margin-top: 12px;
+    margin-top: 6px;
 }
 
 .main-button-container {
