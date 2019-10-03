@@ -463,7 +463,7 @@ footer {
 
 /* work page styles */
 
-#work-top-section {
+.secondary-top-section {
     background: url('images/half-tone-pattern-gray.svg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -677,5 +677,34 @@ footer {
 
     .contact-text-small {
         font-size: 18px;
+    }
+}
+
+
+/* articles page styles */
+
+#articles-title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.5em;
+    flex-basis: 100%;
+}
+
+#articles-intro-container {
+    flex-basis: 936px;
+    max-width: 92%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:700px){
+
+    #articles-intro-container {
+        margin-bottom: 12px;
+        margin-top: 60px;
     }
 }
