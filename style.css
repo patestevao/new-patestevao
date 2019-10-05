@@ -431,9 +431,9 @@ footer {
     }
 
     .nav-link {
-        padding: 0 6px;
-        margin-left: 12px;
-        margin-right: 12px;
+        /* padding: 0 6px; */
+        margin-left: 18px;
+        margin-right: 18px;
     }
 
     #hero-container {
@@ -595,6 +595,9 @@ footer {
     position: absolute;
     bottom: 0;
     margin: 12px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 6px;
 }
 
 .work-6-column-title {
@@ -607,6 +610,66 @@ footer {
 
 #work-button-container {
     display: block;
+}
+
+#bitcoindesigned {
+    background: url("/images/work/bitcoindesigned.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+#akredito {
+    background: url("/images/work/akredito-home-screen.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#privacy-is-everywhere {
+    background: url("/images/work/privacy-is-everywhere.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#lightning-ux-research {
+    background: url("/images/work/lightning-ux-research.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#talk-ABC {
+    background: url("/images/work/ABC.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#talk-bob {
+    background: url("/images/work/bob.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#bitcoin-gif {
+    background: url("/images/work/moon-bear.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#boa-pedida {
+    background: url("/images/work/boa-pedida.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#infographic-1 {
+    background: url("/images/work/what-is-multisig-wallet-thumbnail.png");
+    background-size: cover;
+    background-position: top;
+}
+
+#infographic-2 {
+    background: url("/images/work/privacy-and-bitcoin-sample.png");
+    background-size: cover;
+    background-position: top;
 }
 
 @media(max-width: 1000px) {
@@ -629,7 +692,7 @@ footer {
     }
 
     #infographic-1 {
-        order: 7;
+        order: 4;
     }
 
     #work-intro-container {
@@ -909,5 +972,135 @@ footer {
 
     #article-title {
         font-size: 32px;
+    }
+
+    .article-h2 {
+        font-size: 25px;
+    }
+}
+
+/* Single project page styles */
+
+#project-top-section {
+    background: none;
+}
+
+#project-title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.5em;
+    margin-bottom: 0;
+
+}
+
+.project-container {
+    flex-basis: 100%;
+    /* max-width: 96%; */
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    color: #333;
+}
+
+.project-date {
+    font-size: 15px;
+    color: #555;
+    margin: 0.8em 0 0 0;
+}
+
+.project-featured-image {
+    max-width: 100%;
+    margin-top: 48px;
+}
+
+#project-intro-container {
+    flex-basis: 100%;
+}
+
+.project-text {
+    max-width: 100%;
+    /* display: flex;
+    flex-flow: row wrap; */
+    padding-top: 60px;
+}
+
+.project-h2 {
+    margin-top: 48px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.project-h3 {
+    margin-top: 36px;
+    margin-bottom: 12px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.project-image-container {
+    flex-basis: 100%;
+}
+
+.project-image {
+    max-width: 100%;
+}
+
+.project-ul, .project-ol {
+    margin-left: 12px;
+}
+
+.project-ul-item, .project-ol-item {
+    padding-left: 12px;
+    line-height: 1.5em;
+    margin: 6px 0;
+    font-size: 18px;
+}
+
+.project-link {
+    color: #203997;
+    font-weight: 700;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+    color: #1f1e60;
+}
+
+.project-image-container {
+    margin-bottom: 36px;
+}
+
+.project-image-subtitle {
+    color: #555;
+    font-size: 15px;
+    text-align: center;
+}
+
+.project-quote {
+    font-style: italic;
+    font-size: 21px;
+    color: #555;
+    font-weight: 300;
+    margin: 24px 36px;
+}
+
+.project-paragraph {
+    font-size: 18px;
+}
+
+@media(max-width: 500px) {
+    .project-container {
+        margin-top: 60px;
+    }
+
+    #project-title {
+        font-size: 32px;
+    }
+
+    .project-h2 {
+        font-size: 25px;
     }
 }
