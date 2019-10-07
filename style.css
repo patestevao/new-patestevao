@@ -415,6 +415,12 @@ footer {
         max-width: 80%;
     }
 
+    .top-section {
+        background: url('images/background-mobile.svg');
+        background-size: cover;
+        background-position: center;
+    }
+
     #secondary-bio-message {
         flex-basis: 100%;
         margin: auto;
@@ -513,10 +519,6 @@ footer {
     #home-articles-container {
         max-width: 96%;
     }
-
-    /* #profile-picture-container {
-        margin-top: 12px;
-    } */
 }
 
 /* @media(max-width: 370px) {
