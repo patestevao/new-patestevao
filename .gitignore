@@ -19,3 +19,6 @@
  19 parts/
  20 sdist/
  21 var/
+
+# OS
+.DS_Store
