@@ -2,7 +2,6 @@
         <header>
             <div id="logo-container">
                 <a href="/" id="home-link">
-                    <!-- <img id="logo&#45;image" src="images/logo.svg" alt=""> -->
                     <img id="logo-image" src="{{ "/images/logo.svg" | relURL }}" alt="">
                 </a>
             </div>
@@ -12,10 +11,12 @@
                 <a href="" class="nav-link">Contact</a>
             </nav>
         </header>
+        {{ if .IsHome }}
         <div id="hero-container">
             <div id="hero-message">
                 <h1 id="hero-title">Hello there, <br>   I'm Patrícia Estevão.</h1>
                 <h2 id="hero-subtitle">I’m a privacy-focused <span class="one-line">UX Designer.</span></h2>
             </div>
         </div>
+        {{ end }}
     </div>

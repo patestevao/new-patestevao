@@ -7,19 +7,11 @@
     <div class="coral-divider"></div>
     <div id="home-articles-container">
         <h3 class="home-articles-title">Recent Articles</h3>
-        <div class="tag-container">
-            <a href="" class="tag-link">Bitcoin</a>
-            <a href="" class="tag-link">Privacy</a>
-            <a href="" class="tag-link">Dark Patterns</a>
-            <a href="" class="tag-link">Miscellaneous</a>
-            <a href="" class="tag-link">Privacy</a>
-            <a href="" class="tag-link">Dark Patterns</a>
-            <a href="" class="tag-link">Miscellaneous</a>
-        </div>
+        {{ partial "tag-container.html" . }}
         {{ range first 10 .Pages }}
         <a href="{{ .URL }}" class="article-preview-link">
             <div class="article-preview-container">
-                <img src="images/article-preview-image-placeholder.png" alt="" class="article-preview-image">
+              <img src="{{ .Params.image }}" alt="" class="article-preview-image">
                 <div class="article-preview-content">
                   <h4 class="article-preview-title">{{ .Title }}</h4>
                   <p class="article-preview-date">{{ .Date.Format "02 Jan, 2006" }}</p>
