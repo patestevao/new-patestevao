@@ -8,7 +8,7 @@
     <div id="home-articles-container">
         <h3 class="home-articles-title">Recent Articles</h3>
         {{ partial "tag-container.html" . }}
-        {{ range first 10 .Pages }}
+        {{ range first 3 (where .Pages "Section" "articles") }}
         <a href="{{ .URL }}" class="article-preview-link">
             <div class="article-preview-container">
               <img src="{{ .Params.image }}" alt="" class="article-preview-image">
@@ -54,3 +54,5 @@
             <img id="profile-picture" src="images/perfil.png" alt="">
         </div>
     </div>
+
+{{ partial "footer.html" . }}

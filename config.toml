@@ -4,3 +4,17 @@ title = "Patrícia Estevão"
 
 [permalinks]
 	articles = "/articles/:slug"
+	work = "/work/:slug"
+
+[[ menu.main ]]
+	name = "Work"
+	url = "/work/"
+	weight = 1
+[[ menu.main ]]
+	name = "Articles"
+	url = "/articles/"
+	weight = 2
+[[ menu.main ]]
+	name = "Contact"
+	url = "/contact/"
+	weight = 3

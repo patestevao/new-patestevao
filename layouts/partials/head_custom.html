@@ -6,9 +6,10 @@
                 </a>
             </div>
             <nav id="navigation">
-                <a href="" class="nav-link">Work</a>
-                <a href="" class="nav-link">Articles</a>
-                <a href="" class="nav-link">Contact</a>
+                {{ range .Site.Menus.main }}
+                {{ $name := humanize .Name }}
+                <a href="{{ .URL }}" class="nav-link">{{ $name }}</a>
+                {{ end }}
             </nav>
         </header>
         {{ if .IsHome }}
