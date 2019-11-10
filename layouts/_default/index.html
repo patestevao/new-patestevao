@@ -3,10 +3,15 @@
 <!-- {{ if not .IsHome }} -->
 <!-- <h1>{{ .Title }}</h1> -->
 <!-- {{ end }} -->
-
-    <div class="coral-divider"></div>
+    <div class="index-bg"></div>
+    <div id="index-top-content">
+        <div id="hero-message">
+            <h1>Hello there, <br>   I'm Patrícia Estevão.</h1>
+            <h2>I’m a privacy-focused <span class="one-line">UX Designer.</span></h2>
+        </div>
+    </div>
     <div id="home-articles-container">
-        <h3 class="home-articles-title">Recent Articles</h3>
+        <h3>Recent Articles</h3>
         {{ partial "tag-container.html" . }}
         {{ range first 3 (where .Pages "Section" "articles") }}
         <a href="{{ .URL }}" class="article-preview-link">
@@ -14,7 +19,7 @@
               <img src="{{ .Params.image }}" alt="" class="article-preview-image">
                 <div class="article-preview-content">
                   <h4 class="article-preview-title">{{ .Title }}</h4>
-                  <p class="article-preview-date">{{ .Date.Format "02 Jan, 2006" }}</p>
+                  <p class="date">{{ .Date.Format "02 Jan, 2006" }}</p>
                     <p class="article-preview-summary">{{ .Params.Intro }}</p>
                 </div>
             </div>
@@ -40,7 +45,7 @@
     </div>
     <div id="secondary-bio-section">
         <div id="secondary-bio-message">
-            <p class="secondary-bio-text">
+            <p>
                 I'm researching and implementing human empowering technologies at paralelo lab.
                 I focus on UX to improve user security and privacy.
                 I take a special liking to creating infographics.

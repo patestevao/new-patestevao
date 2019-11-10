@@ -1,10 +1,10 @@
 {{ partial "header.html" . }}
 
 {{ if eq .Layout "contact" }}
-        <div id="contact-container">
-            <div id="contact-intro-container">
-                <h2 id="contact-title">Let's Talk</h2>
-            </div>
+        <div class="page-top-content">
+            <!-- <div id="contact-intro-container"> -->
+                <h1>Let's Talk</h1>
+            <!-- </div> -->
             <div id="contact-content-container">
                 <p class="contact-text">For any work inquiries or projects you wish to talk about, you can contact me at <a href="mailto:hello@patestevao.com" class="mail-link">hello@patestevao.com</a>.</p>
                 <p class="contact-text-small">PGP: A386 CED7 90E2 715C 37EA 6145 BBD3 997C F194 482B</p>
@@ -36,29 +36,29 @@
 {{ else }}
     <article class="article-container">
         <div id="article-intro-container">
-            <h1 id="article-title">Expanding Bitcoin’s reach with accessible wallets</h1>
-            <p class="article-date">September 20th, 2019</p>
+            <h1>Expanding Bitcoin’s reach with accessible wallets</h1>
+            <p class="date">September 20th, 2019</p>
             <img src="/images/featured-image.jpeg" alt="" class="article-featured-image">
         </div>
         <div class="article-text">
-            <p class="article-paragraph">Co-authored article with: Marco Agner.</p>
-            <p class="article-paragraph">
+            <p>Co-authored article with: Marco Agner.</p>
+            <p>
                 This article is an organized write-up of notes and insights collected during the on-going research we are doing on the subject of accessible wallets. Even though there’s still much to be done, we wanted to share these first thoughts since now.
             </p>
-            <p class="article-paragraph">
+            <p>
                 There exists, already, a general awareness of the importance of creating interfaces with good Usability for Bitcoin users. It’s a very straightforward issue: if interfaces are hard to use — i.e. have a bad usability — people will make more mistakes when operating the wallet. Mistakes in Bitcoin wallets can manifest themselves as irreversible financial loss and privacy compromise. As a consequence, there has been an effort by many different developing teams to make their wallets more usable. But, usable to whom?
             </p>
-            <p class="article-paragraph">
+            <p>
                 If Bitcoin’s goal is to be a revolution of the global financial system, it needs to be available and accessible to people all around the world and, potentially, to all of them. To make that possible, wallet developers need to work with the need for accessibility in mind.
             </p>
-            <p class="article-paragraph">
+            <p>
                 Throughout this article, we will present different types of disabilities and special needs that may affect how people use the wallet software. The objective is to create awareness over the range of distinct difficulties people may have that should be considered when developing a solution. Also, we intend to show the relevance of accessibility in terms of the number of people affected, and, therefore, to give an idea of how many more people can make use of Bitcoin if they have a proper interface designed for them.
             </p>
-            <h2 class="article-h2">Who may not be your user (until now)</h2>
-            <p class="article-paragraph">
+            <h2>Who may not be your user (until now)</h2>
+            <p>
                 Here are some of the key information we have gathered so far that give a dimension of how many potential users with special needs there are for us to reach:
             </p>
-            <p class="article-paragraph">
+            <p>
                 <ul class="article-ul">
                     <li class="article-ul-item">54,4% of the world population accesses the internet; (1)</li>
                     <li class="article-ul-item">1 in 7 people in the world experience some disability; (2)</li>
@@ -67,76 +67,76 @@
                     <li class="article-ul-item">An estimated 253 million people live with vision impairment: 36 million are blind and 217 million have moderate to severe vision impairment. (6)</li>
                 </ul>
             </p>
-            <h2 class="article-h2">The approaches for an accessible wallet</h2>
-            <h3 class="article-h3">Universal Design</h3>
-            <p class="article-quote">
+            <h2>The approaches for an accessible wallet</h2>
+            <h3>Universal Design</h3>
+            <p class="quote">
                 “Universal design is the design of products and environments to be usable by all people, to the greatest extent possible, without the need for adaptation or specialized design.” — Ron Mace
             </p>
-            <p class="article-paragraph">
+            <p>
                 The idea behind Universal Design is that products can become accessible for a great number of people, even some of those who have special needs or disabilities, simply by leveraging the correct application of Design principles or, in other words, by creating an objectively good design. The principles of Universal Design clearly cross paths with the objectives for any interface that desires to provide a good experience to its users. Let’s take a look at the first six of those principles — the seventh belongs to the realm of the meatspace — and consider how a good design approach is enough to address most issues.
             </p>
-            <p class="article-quote">
+            <p class="quote">
                 Principle 1: Equitable Use
 
                 The design is useful and marketable to people with diverse abilities.
             </p>
-            <p class="article-paragraph">
+            <p>
                 Bitcoin wallets should be easy to use for both beginners and expert users. Provide the means for each user to make the most out of it. E.g.: offer tutorials and contextual help, provide advanced options (making it clear that they are advanced).
             </p>
-            <p class="article-quote">
+            <p class="quote">
                 Principle 2: Flexibility in Use
 
                 The design accommodates a wide range of individual preferences and abilities.
             </p>
-            <p class="article-paragraph">
+            <p>
                 People are very different in their personal needs. Your user might be short-sighted, have short fingers, have a very large phone, be an elderly person with difficulty of making precise moves, or even commuter on a very shaky train that frequently uses the wallet app on his way to work. Examples of how the wallet can account for this: offering different font sizes, considering the effects of Fitt’s Law — the farther away a target is and the smaller its size, the more difficult it is for the user to correctly land on the target — on both desktop and mobile interfaces.
             </p>
-            <p class="article-quote">
+            <p class="quote">
                 Principle 3: Simple and Intuitive use
 
                 Use of the design is easy to understand, regardless of the user’s experience, knowledge, language skills, or current concentration level.
             </p>
-            <p class="article-paragraph">
+            <p>
                 This concerns every principle of good Usability, such as providing feedback, eliminating unnecessary complexities, creating consistency throughout the interface, arranging elements with a visual hierarchy that reflects their importance, etc.
             </p>
-            <p class="article-quote">
+            <p class="quote">
                 Principle 4: Perceptible information
 
                 The design communicates necessary information effectively to the user, regardless of ambient conditions or the user’s sensory abilities.
             </p>
-            <p class="article-paragraph">
+            <p>
                 This concerns the need to communicate a message to the user, so your objective needs to be making that message as clear and universal as possible. E.g.: use combinations of text and visual information, make good use of contrast and white space to improve readability.
             </p>
-            <p class="article-quote">
+            <p class="quote">
                 Principle 5: Tolerance for Error
 
                 The design minimizes hazards and the adverse consequences of accidental or unintended actions.
             </p>
-            <p class="article-paragraph">
+            <p>
                 Error forgiveness is one of the most essential elements of modern digital interfaces. Can you imagine your life without “Ctrl + Z”? As such, good Design also has a variety of principles that deal with this need: warnings, action reversal (when possible), organization that avoid errors — such as isolating or shielding possibly hazardous choices, flexible acceptance of inputs.
             </p>
-            <p class="article-quote">
+            <p class="quote">
                 Principle 6: Low Physical Effort
 
                 The design can be used efficiently and comfortably and with a minimum of fatigue.
             </p>
-            <p class="article-paragraph">
+            <p>
                 This might not seem very related to software, but it can be. Making users read long texts with a very small font sure can be tiring. And, what about having to copy by hand a Bitcoin address? That also causes some physical stress that all users can benefit from not having to perform. That’s why is a best practice to provide the options to copy/paste and to read the QR code.
             </p>
-            <p class="article-paragraph">
+            <p>
                 The greatest benefit of Universal Design is that the application of these principles on a Bitcoin wallet is perfectly achievable without the need for any specialized knowledge and the results are a significant inclusion and improved experience for different users. If we think of it, these simple measures can improve usability for a wide range of people, such as elderly people, people who are not proficient readers, children, people with mild visual difficulties, novice users who are not perfectly comfortable with technology, or simply anyone that encounters himself/herself in an imperfect environment for the use of the wallet — e.g. under bright sun, on a shaky transport, etc.
             </p>
-            <h3 class="article-h3">Accessible Design</h3>
-            <p class="article-paragraph">
+            <h3>Accessible Design</h3>
+            <p>
                 Accessible design is the process in which the needs of people with disabilities are specifically considered. The development of an accessible wallet through this process may require knowledge of how people with the targeted disability use software and a more strict set of participants during user tests, due to the importance of getting feedback from the target audience. Therefore, this is not always as easy to integrate into your development plan.
             </p>
-            <p class="article-paragraph">
+            <p>
                 The creation of a wallet for the illiterate or semi-illiterate, for example, requires that all main wallet communication be transformed into graphical elements and sound. That requires an extra planning on which symbols and images will better illustrate each action, as well as recording and implementing the visual cues for the audio assistance.
             </p>
-            <p class="article-paragraph">
+            <p>
                 However, there are some principles we can observe that similarly to the Universal Design approach, can also be easy to implement or be of benefit to most users. A few examples that can be listed:
             </p>
-            <p class="article-paragraph">
+            <p>
                 <ul class="article-ul">
                     <li class="article-ul-item">
                         Include text alternatives to all non-text content, accounting for its meaning. An example of that would be a text alternative for a search icon, usually the magnifying glass, to be “search” rather than “magnifying glass”. This will help users that depend on assistive technology like screen-readers.
@@ -148,11 +148,11 @@
             </p>
             <div class="article-image-container">
                 <img src="/images/article-image.png" alt="" class="article-image">
-                <p class="article-image-subtitle">
+                <p class="image-subtitle">
                     The screen on the left relies both on color and graphic elements to communicate with the user, which is the correct approach. The screen on the right uses only colors, making it a bad practice if we want to make the Design more accessible.
                 </p>
             </div>
-            <p class="article-paragraph">
+            <p>
                 <ul class="article-ul">
                     <li class="article-ul-item">
                         If animating, make sure users have enough time to read the content. And, certainly, avoid presenting the content in a way that may cause seizures.
@@ -162,23 +162,23 @@
                     </li>
                 </ul>
             </p>
-            <p class="article-paragraph">
+            <p>
                 These were just a few punctual examples, there are standards that guide the design of accessible wallets which are a more complete source of information on that matter.
             </p>
-            <h2 class="article-h2">Our conclusion for now</h2>
-            <p class="article-paragraph">
+            <h2>Our conclusion for now</h2>
+            <p>
                 As stated, this article just presents some preliminary insights from a bigger research that we wanted to share now. Nevertheless, we already can take a couple of important conclusions from the information we have analyzed until now.
             </p>
-            <p class="article-paragraph">
+            <p>
                 Making accessible wallets is not only for users with disabilities; the concept of Universal Design is much broader and useful for all human users. Nevertheless, knowing the numbers, we can see that polishing your software specially to serve users with disabilities — or, at least, making it easier for the software to interact with external accessibility tools — can have a huge impact when compared to the investment in resources. And, this asymmetric relationship we see here may mean that the resources directed toward accessibility can be balanced to not overstretch a project while causing a significant impact, especially if the main objective is making Bitcoin meaningful for the world economy.
             </p>
-            <p class="article-paragraph">
+            <p>
                 And, in case you are looking for an inspiration on how you can build a wallet that has a distinct impact than the ones that exist so far, you can take the challenge up to yourself and be the one that will go the extra mile to build a specially-made software that suits a type disability.
             </p>
-            <p class="article-paragraph">
+            <p>
                 Data sources:
             </p>
-            <p class="article-paragraph">
+            <p>
                 <ol class="article-ol">
                     <li class="article-ol-item">
                         <a href="" class="article-link">https://www.internetworldstats.com/stats.htm</a>
@@ -200,10 +200,10 @@
                     </li>
                 </ol>
             </p>
-            <p class="article-paragraph">
+            <p>
                 Other sources:
             </p>
-            <p class="article-paragraph">
+            <p>
                 <ul class="article-ul">
                     <li class="article-ul-item">
                         <a href="http://universaldesign.ie/What-is-Universal-Design/" class="article-link">http://universaldesign.ie/What-is-Universal-Design/</a>
