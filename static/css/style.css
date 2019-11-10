@@ -56,9 +56,6 @@ ul, ol {
 }
 
 .top-section {
-    background: url('images/half-tone-pattern.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
     /* height: 80vh; */
     padding: 36px 12px 0 12px;
     flex-basis: 100%;
@@ -67,6 +64,13 @@ ul, ol {
     flex-flow: row wrap;
     /* background-color: #1f2060; */
 }
+
+.index-top-section-bg {
+    background: url('images/half-tone-pattern.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 header {
     display: flex;
