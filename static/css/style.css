@@ -68,11 +68,22 @@ li {
     font-size: 18px;
 }
 
+.large-text {
+    font-size: 21px;
+}
+
 .page-top-section {
-    padding: 36px 12px 0 12px;
+    /* padding: 36px 12px 0 12px;
     flex-basis: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap; */
+    flex-basis: 936px;
+    max-width: 96%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 36px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* .index-top-section-bg {
@@ -107,10 +118,14 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    flex-basis: 936px;
-    max-width: 96%;
+    flex-basis: 100%;
+    max-width: 100%;
     margin: auto;
     /* background: #f8cecf; */
+}
+
+#hero-message h2 {
+    margin-top: 0;
 }
 
 @media(max-width:700px){
@@ -322,13 +337,13 @@ header {
     flex-basis: 50%;
 }
 
-.secondary-bio-text {
+/* .secondary-bio-text {
     font-size: 18px;
-}
+} */
 
-.footer-title {
+/* .footer-title {
     text-align: center;
-}
+} */
 
 footer {
     flex-basis: 936px;
@@ -432,12 +447,6 @@ footer h4 {
         max-width: 80%;
     }
 
-    .top-section {
-        background: url('images/background-mobile.svg');
-        background-size: cover;
-        background-position: center;
-    }
-
     #secondary-bio-message {
         flex-basis: 100%;
         margin: auto;
@@ -535,7 +544,7 @@ footer h4 {
 
 /* work page styles */
 
-.secondary-top-section {
+/* .secondary-top-section {
     background: url('images/half-tone-pattern.svg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -543,7 +552,7 @@ footer h4 {
     flex-basis: 100%;
     display: flex;
     flex-flow: row wrap;
-}
+} */
 
 .work-tag-container {
     display: flex;
@@ -703,14 +712,10 @@ footer h4 {
     max-width: 620px;
 }
 
-.contact-text {
-    font-size: 24px;
-}
-
-.contact-text-small {
+/* .contact-text-small {
     font-size: 21px;
     margin-bottom: 48px;
-}
+} */
 
 .mail-link {
     font-weight: 700;
@@ -757,7 +762,6 @@ footer h4 {
     }
 
     .contact-social-items {
-        display: block;
         margin-bottom: 36px;
     }
 
@@ -818,9 +822,9 @@ footer h4 {
 
 /* Single article page styles */
 
-#article-top-section {
+/* #article-top-section {
     background: none;
-}
+} */
 
 #article-title {
     font-size: 42px;
@@ -858,8 +862,6 @@ footer h4 {
 
 .article-text {
     max-width: 100%;
-    /* display: flex;
-    flex-flow: row wrap; */
     padding-top: 60px;
 }
 
@@ -885,23 +887,23 @@ footer h4 {
     max-width: 100%;
 }
 
-.article-ul, .article-ol {
+.ul, .ol {
     margin-left: 12px;
 }
 
-.article-ul-item, .article-ol-item {
+.ul-item, .ol-item {
     padding-left: 12px;
     line-height: 1.5em;
     margin: 6px 0;
     font-size: 18px;
 }
 
-.article-link {
+.link {
     color: #203997;
     font-weight: 700;
 }
 
-.article-link:hover {
+.link:hover {
     text-decoration: underline;
     color: #1f1e60;
 }
@@ -936,18 +938,18 @@ footer h4 {
 
 /* Single project page styles */
 
-#project-top-section {
+/* #project-top-section {
     background: none;
-}
+} */
 
-#project-title {
+/* #project-title {
     font-size: 42px;
     font-weight: 700;
     text-align: left;
     line-height: 1.5em;
     margin-bottom: 0;
 
-}
+} */
 
 .project-container {
     flex-basis: 100%;
@@ -999,7 +1001,7 @@ footer h4 {
     /* padding-top: 60px; */
 }
 
-.project-h2 {
+/* .project-h2 {
     margin-top: 48px;
     margin-bottom: 12px;
     font-weight: 700;
@@ -1011,7 +1013,7 @@ footer h4 {
     margin-bottom: 12px;
     font-weight: 300;
     font-size: 24px;
-}
+} */
 
 .project-image-container {
     flex-basis: 100%;
@@ -1025,18 +1027,18 @@ footer h4 {
     margin: auto;
 }
 
-.project-ul, .project-ol {
+/* .project-ul, .project-ol {
     margin-left: 12px;
-}
+} */
 
-.project-ul-item, .project-ol-item {
+/* .project-ul-item, .project-ol-item {
     padding-left: 12px;
     line-height: 1.5em;
     margin: 6px 0;
     font-size: 18px;
-}
+} */
 
-.project-link {
+/* .project-link {
     color: #203997;
     font-weight: 700;
 }
@@ -1044,7 +1046,7 @@ footer h4 {
 .project-link:hover {
     text-decoration: underline;
     color: #1f1e60;
-}
+} */
 
 .project-image-container {
     margin-bottom: 36px;
