@@ -58,6 +58,7 @@ h4 {
 p {
     font-size: 18px;
     line-height: 1.5em;
+    margin: 0.5em 0;
 }
 
 ul, ol {
@@ -820,26 +821,21 @@ footer h4 {
     }
 }
 
-/* Single article page styles */
+/* Individual post page styles — i.e. articles and projects pages */
 
-/* #article-top-section {
-    background: none;
-} */
-
-#article-title {
-    font-size: 42px;
-    font-weight: 700;
-    text-align: left;
-    line-height: 1.5em;
-    margin-bottom: 0;
-
+.page-full-width-container {
+    flex-basis: 100%;
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    color: #333;
 }
 
-.article-container {
+.post-content-container {
     flex-basis: 720px;
     max-width: 96%;
     margin: auto;
-    margin-top: 120px;
     display: flex;
     flex-flow: row wrap;
     color: #333;
@@ -848,42 +844,23 @@ footer h4 {
 .date {
     font-size: 15px;
     color: #555;
-    margin: 0.8em 0 0 0;
 }
 
-.article-featured-image {
+.post-content-container .date {
+    margin: -1.2em 0 0 0;
+}
+
+.post-featured-image {
     max-width: 100%;
     margin-top: 48px;
+    margin-bottom: 36px;
 }
 
-#article-intro-container {
+.post-image-container {
     flex-basis: 100%;
 }
 
-.article-text {
-    max-width: 100%;
-    padding-top: 60px;
-}
-
-.article-h2 {
-    margin-top: 48px;
-    margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 28px;
-}
-
-.article-h3 {
-    margin-top: 36px;
-    margin-bottom: 12px;
-    font-weight: 300;
-    font-size: 24px;
-}
-
-.article-image-container {
-    flex-basis: 100%;
-}
-
-.article-image {
+.post-image {
     max-width: 100%;
 }
 
@@ -908,10 +885,6 @@ footer h4 {
     color: #1f1e60;
 }
 
-.article-image-container {
-    margin-bottom: 36px;
-}
-
 .image-subtitle {
     color: #555;
     font-size: 15px;
@@ -926,11 +899,13 @@ footer h4 {
     margin: 24px 36px;
 }
 
-@media(max-width: 500px) {
-    .article-container {
-        margin-top: 60px;
+@media(max-width: 930px) {
+    .post-content-container .date {
+        margin: -0.5em 0 0 0;
     }
+}
 
+@media(max-width: 500px) {
     .quote {
         font-size: 18px;
     }
@@ -938,47 +913,7 @@ footer h4 {
 
 /* Single project page styles */
 
-/* #project-top-section {
-    background: none;
-} */
-
-/* #project-title {
-    font-size: 42px;
-    font-weight: 700;
-    text-align: left;
-    line-height: 1.5em;
-    margin-bottom: 0;
-
-} */
-
-.project-container {
-    flex-basis: 100%;
-    /* max-width: 96%; */
-    margin: auto;
-    margin-top: 120px;
-    display: flex;
-    flex-flow: row wrap;
-    color: #333;
-}
-
-#project-featured-image-container {
-    max-width: 100%;
-    margin-top: 48px;
-    flex-basis: 100%;
-    height: 60vh;
-    background: url("images/work/boa-pedida.png");
-    background-size: cover;
-    background-position: center;
-}
-
-/* #project-featured-image {
-    position: absolute;
-    top: -50%;
-    left: 0;
-    right: 0;
-    margin: auto;
-} */
-
+/*
 #project-intro-container {
     flex-basis: 100%;
     display: flex;
@@ -990,16 +925,13 @@ footer h4 {
     flex-basis: 720px;
     max-width: 96%;
     margin: auto;
-}
+} */
 
-.project-text {
+/* .project-text {
     max-width: 96%;
     flex-basis: 720px;
     margin: auto;
-    /* display: flex;
-    flex-flow: row wrap; */
-    /* padding-top: 60px; */
-}
+} */
 
 /* .project-h2 {
     margin-top: 48px;
@@ -1015,17 +947,17 @@ footer h4 {
     font-size: 24px;
 } */
 
-.project-image-container {
+/* .project-image-container {
     flex-basis: 100%;
     max-width: 1600px;
     margin: auto;
-}
+} */
 
-.project-image {
+/* .project-image {
     width: 100%;
     max-width: 1600px;
     margin: auto;
-}
+} */
 
 /* .project-ul, .project-ol {
     margin-left: 12px;
@@ -1048,13 +980,13 @@ footer h4 {
     color: #1f1e60;
 } */
 
-.project-image-container {
+/* .project-image-container {
     margin-bottom: 36px;
-}
+} */
 
-.project-paragraph {
+/* .project-paragraph {
     font-size: 18px;
-}
+} */
 
 .back-button-container {
     flex-basis: 100%;
@@ -1075,7 +1007,7 @@ footer h4 {
     margin: 0 16px 0 0;
 }
 
-@media(max-width: 500px) {
+/* @media(max-width: 500px) {
     .project-container {
         margin-top: 60px;
     }
@@ -1087,4 +1019,4 @@ footer h4 {
     .project-h2 {
         font-size: 25px;
     }
-}
+} */
