@@ -200,7 +200,7 @@ header {
     position: relative;
     /* margin-left: 70px; */
     /* margin-top: 24px; */
-    flex-basis: 40%;
+    flex-basis: 35%;
 }
 
 #profile-picture {
@@ -213,11 +213,10 @@ header {
 
 #profile-bg {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: -150px;
+    right: -30px;
+    height: 500px;
     z-index: -99;
-    width: 100%;
-    height: auto;
 }
 
 .tag-container {
@@ -342,26 +341,22 @@ header {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 #secondary-bio-message {
-    flex-basis: 50%;
+    flex-basis: 55%;
 }
 
-/* .secondary-bio-text {
-    font-size: 18px;
-} */
-
-/* .footer-title {
-    text-align: center;
-} */
+#secondary-bio-message p:first-of-type {
+    margin-top: 0;
+}
 
 footer {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 footer h4 {
@@ -465,6 +460,13 @@ footer h4 {
         order: 2;
     }
 
+    #profile-bg {
+        transform: rotate(-90deg);
+        top: -50px;
+        right: -90px;
+        height: 320px;
+    }
+
     #navigation {
         justify-content: center;
         margin-top: 24px;
@@ -544,6 +546,11 @@ footer h4 {
 
     #home-articles-container {
         max-width: 96%;
+    }
+
+    #profile-bg {
+        top: -50px;
+        right: -50px;
     }
 }
 
