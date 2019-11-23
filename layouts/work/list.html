@@ -15,8 +15,13 @@
     </div>
     <div class="work-grid">
         {{ range where .Pages "Section" "work" }}
-        <div id="" class="work-6-column-container" style="background: url('{{ .Params.image }}'); background-size: cover; background-position: center;">
-          <h3 class="work-grid-title">{{ .Title }}</h3>
+        <div id="" class="work-grid-item-container" style="background: url('{{ .Params.image }}'); background-size: cover; background-position: center;">
+        <a href="" class="work-grid-link">
+            <div class="work-grid-summary-container">
+                <h3 class="work-grid-title">{{ .Title }}</h3>
+                <p class="work-grid-summary">Independent UX research about the intial state of the Bitcoin's Lightning network and its future perspectives. It was conducted using heuristics as its main research technique.</p>
+            </div>
+        </a>
         </div>
         {{ end }}
         <!-- <div id="work-button-container" class="main-button-container">
