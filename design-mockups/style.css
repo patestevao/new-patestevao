@@ -66,7 +66,7 @@ h4 {
 p {
     font-size: 18px;
     line-height: 1.5em;
-    margin: 0.5em 0;
+    margin: 0.8em 0;
 }
 
 ul, ol {
@@ -143,6 +143,12 @@ header {
     .index-bg-image {
         height: 80vh;
         width: auto;
+    }
+}
+
+@media(max-width: 500px) {
+    .page-top-content {
+        margin-top: 24px;
     }
 }
 
@@ -446,6 +452,10 @@ footer h4 {
     h3 {
         font-size: 21px;
     }
+
+    footer {
+        margin-top: 100px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -510,9 +520,13 @@ footer h4 {
         margin: auto;
     }
 
+    .article-preview-link {
+        margin-bottom: 48px;
+    }
+
     .article-preview-container {
         flex-flow: row wrap;
-        margin-bottom: 48px;
+        /* margin-bottom: 48px; */
     }
 
     .article-preview-content {
@@ -528,10 +542,6 @@ footer h4 {
     .main-button {
         margin: auto;
     }
-/*
-    footer {
-        margin-top: 48px;
-    } */
 
     .footer-email {
         font-size: 20px;
@@ -559,6 +569,27 @@ footer h4 {
     #profile-bg {
         top: -50px;
         right: -50px;
+    }
+
+    .article-preview-image {
+        display: none;
+    }
+
+    .nav-link {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    footer {
+        margin-top: 48px;
+    }
+
+    .article-preview-link:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .main-button-container {
+        margin-top: 18px;
     }
 }
 
@@ -868,8 +899,8 @@ footer h4 {
     flex-basis: 720px;
     max-width: 96%;
     margin: auto;
-    display: flex;
-    flex-flow: row wrap;
+    /* display: flex; */
+    /* flex-flow: row wrap; */
     color: #333;
 }
 
@@ -903,7 +934,7 @@ footer h4 {
 .ul-item, .ol-item {
     padding-left: 12px;
     line-height: 1.5em;
-    margin: 6px 0;
+    margin: 0.8em 0;
     font-size: 18px;
 }
 
