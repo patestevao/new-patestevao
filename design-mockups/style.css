@@ -17,6 +17,14 @@ a {
     overflow-wrap: break-word;
     word-wrap: break-word;
     font-size: 18px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 h1 {
@@ -901,7 +909,7 @@ footer h4 {
 
 .link {
     color: #203997;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .link:hover {
