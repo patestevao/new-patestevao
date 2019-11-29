@@ -927,6 +927,9 @@ footer h4 {
     max-width: 100%;
 }
 
+/* I don't think we should have this kind of smell...
+   I'll leave it here for now so I don't break anything before you fix it  and
+   create a rule for lists inside articles. */
 .ul, .ol {
     margin-left: 12px;
 }
@@ -937,11 +940,33 @@ footer h4 {
     margin: 0.8em 0;
     font-size: 18px;
 }
+/* This is the rule for lists inside articles. */
+article ul, article ol {
+    margin-left: 12px;
+}
 
+article li {
+    padding-left: 12px;
+    line-height: 1.5em;
+    margin: 0.8em 0;
+    font-size: 18px;
+}
+/* /\/\/\/\/\/\/\/\/\ */
+
+/* Creating this to substitute class .link for lists.
+   I'll make this `a` tag `article`-wide, but could be limited to `list`.
+
+   TODO: check if class
+   will be needed somewhere even with this substitution. */
+article a {
+    color: #203997;
+    /* font-weight: 700; */
+}
 .link {
     color: #203997;
     /* font-weight: 700; */
 }
+/* /\/\/\/\/\/\/\/\/\ */
 
 .link:hover {
     text-decoration: underline;
@@ -954,12 +979,16 @@ footer h4 {
     text-align: center;
 }
 
-.quote {
+/* Maybe you want to remove the .quote (but not blockquote!)... */
+blockquote, .quote {
+    margin: 24px 36px;
+}
+
+blockquote p {
     font-style: italic;
     font-size: 21px;
     color: #555;
     font-weight: 300;
-    margin: 24px 36px;
 }
 
 @media(max-width: 930px) {

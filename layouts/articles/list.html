@@ -2,7 +2,7 @@
     
     <div id="articles-list-container">
       {{/* {{ partial "tag-container.html" . }} */}}
-        {{ range where .Pages "Section" "articles" }}
+        {{ range where .RegularPages "Section" "articles" }}
         <a href="{{ .URL }}" class="article-preview-link">
             <div class="article-preview-container">
               <img src="{{ .Params.image }}" alt="" class="article-preview-image">
