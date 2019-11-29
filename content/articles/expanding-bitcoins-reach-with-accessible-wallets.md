@@ -172,19 +172,13 @@ elements. This simple redundancy is enough not to exclude color-blind users
 from your software. The image below shows an example of this in a mock up of a
 Bitcoin wallet.
 
-
-<!-- TODO: let's try to simplify this -->
-<div class="post-image-container">
-    <img src="images/article-image.png" alt="" class="post-image">
-    <p class="image-subtitle">
-The screen on the left relies both on color and graphic elements to communicate
+![article image](images/article-image.png)
+*The screen on the left relies both on color and graphic elements to communicate
 with the user, which is the correct approach. The screen on the right uses only
-colors, making it a bad practice if we want to make the Design more accessible.
-    </p>
-</div>
+colors, making it a bad practice if we want to make the Design more accessible.*
 
 - If animating, make sure users have enough time to read the content. And,
-certainly, avoid presenting the content in a way that may cause seizures. 
+certainly, avoid presenting the content in a way that may cause seizures.
 
 - Make your wallet possible to navigate using only the keyboard. This is
 actually a feature that many programmers might like, due to the habit of using

@@ -29,10 +29,7 @@ Qualitative data gathered through online polls and questionnaires was used to
 form the proposed personas user journey maps. The following image is one of the
 user journey maps we defined for the persona we called Maria.
 
-<!-- Just like in articles, we should simplify this with better choices -->
-<div class="post-image-container">
-    <img src="images/journey-map.png" alt="" class="post-image">
-</div>
+![journey map](images/journey-map.png)
 
 ## Interface
 
@@ -51,17 +48,16 @@ secondary, so they are shown only on the restaurant page.
 
 The following images show some of the resulting screens.
 
+![screen 1](images/boa-pedida1.png)
+![screen 2](images/boa-pedida2.png)
+![screen 3](images/boa-pedida3.png)
+![screen 4](images/boa-pedida4.png)
 
-<!-- Same thing about simplifying the images applies here -->
-<div class="post-image-container">
-    <img src="images/boa-pedida1.png" alt="" class="post-image">
-</div>
-<div class="post-image-container">
-    <img src="images/boa-pedida2.png" alt="" class="post-image">
-</div>
-<div class="post-image-container">
-    <img src="images/boa-pedida3.png" alt="" class="post-image">
-</div>
-<div class="post-image-container">
-    <img src="images/boa-pedida4.png" alt="" class="post-image">
-</div>
+At the same time, I aimed for a balance between being clean and informative,
+following the principle of progressive disclosure when displaying the
+restaurant’s information. For example, neighborhood is an essential information
+about a restaurant when it comes to large Brazilian cities, where the public
+transport is not great and there’s a lot of traffic. Therefore, the
+neighborhood is shown with the restaurant thumbnail in the search list. Other
+information, such as working hours and price range, are important but
+secondary, so they are shown only on the restaurant page.

@@ -205,24 +205,15 @@ header {
 }
 
 #profile-picture-container {
-    /* height: 250px; */
     width: 100%;
     height: auto;
-    /* width: 250px; */
-    /* background-color: #ec58b9; */
-    /* background: url('images/hexagon.svg'); */
     position: relative;
-    /* margin-left: 70px; */
-    /* margin-top: 24px; */
     flex-basis: 35%;
 }
 
 #profile-picture {
     height: 250px;
     width: 250px;
-    /* position: absolute;
-    top: -12px;
-    left: -12px; */
 }
 
 #profile-bg {
@@ -273,7 +264,6 @@ header {
 }
 
 .article-preview-container {
-    /* margin-top: 24px; */
     display: flex;
     flex-flow: row no-wrap;
 }
@@ -776,11 +766,6 @@ footer h4 {
     max-width: 620px;
 }
 
-/* .contact-text-small {
-    font-size: 21px;
-    margin-bottom: 48px;
-} */
-
 .mail-link {
     font-weight: 700;
 }
@@ -899,8 +884,6 @@ footer h4 {
     flex-basis: 720px;
     max-width: 96%;
     margin: auto;
-    /* display: flex; */
-    /* flex-flow: row wrap; */
     color: #333;
 }
 
@@ -919,28 +902,12 @@ footer h4 {
     margin-bottom: 36px;
 }
 
-.post-image-container {
-    flex-basis: 100%;
-}
-
-.post-image {
+article img {
+    width: 100%;
     max-width: 100%;
+    margin-top: 1em;
 }
 
-/* I don't think we should have this kind of smell...
-   I'll leave it here for now so I don't break anything before you fix it  and
-   create a rule for lists inside articles. */
-.ul, .ol {
-    margin-left: 12px;
-}
-
-.ul-item, .ol-item {
-    padding-left: 12px;
-    line-height: 1.5em;
-    margin: 0.8em 0;
-    font-size: 18px;
-}
-/* This is the rule for lists inside articles. */
 article ul, article ol {
     margin-left: 12px;
 }
@@ -951,36 +918,34 @@ article li {
     margin: 0.8em 0;
     font-size: 18px;
 }
-/* /\/\/\/\/\/\/\/\/\ */
 
-/* Creating this to substitute class .link for lists.
-   I'll make this `a` tag `article`-wide, but could be limited to `list`.
-
-   TODO: check if class
-   will be needed somewhere even with this substitution. */
 article a {
     color: #203997;
-    /* font-weight: 700; */
 }
-.link {
-    color: #203997;
-    /* font-weight: 700; */
-}
-/* /\/\/\/\/\/\/\/\/\ */
 
-.link:hover {
+article a:hover {
     text-decoration: underline;
     color: #1f1e60;
 }
 
-.image-subtitle {
+/* .image-subtitle {
     color: #555;
     font-size: 15px;
     text-align: center;
+} */
+
+article img+em {
+    color: #555;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+    font-style: normal;
 }
 
 /* Maybe you want to remove the .quote (but not blockquote!)... */
-blockquote, .quote {
+blockquote{
     margin: 24px 36px;
 }
 
@@ -998,87 +963,12 @@ blockquote p {
 }
 
 @media(max-width: 500px) {
-    .quote {
+    blockquote p {
         font-size: 18px;
     }
 }
 
 /* Single project page styles */
-
-/*
-#project-intro-container {
-    flex-basis: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    margin-bottom: 60px;
-}
-
-#project-text-intro-container {
-    flex-basis: 720px;
-    max-width: 96%;
-    margin: auto;
-} */
-
-/* .project-text {
-    max-width: 96%;
-    flex-basis: 720px;
-    margin: auto;
-} */
-
-/* .project-h2 {
-    margin-top: 48px;
-    margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 28px;
-}
-
-.project-h3 {
-    margin-top: 36px;
-    margin-bottom: 12px;
-    font-weight: 300;
-    font-size: 24px;
-} */
-
-/* .project-image-container {
-    flex-basis: 100%;
-    max-width: 1600px;
-    margin: auto;
-} */
-
-/* .project-image {
-    width: 100%;
-    max-width: 1600px;
-    margin: auto;
-} */
-
-/* .project-ul, .project-ol {
-    margin-left: 12px;
-} */
-
-/* .project-ul-item, .project-ol-item {
-    padding-left: 12px;
-    line-height: 1.5em;
-    margin: 6px 0;
-    font-size: 18px;
-} */
-
-/* .project-link {
-    color: #203997;
-    font-weight: 700;
-}
-
-.project-link:hover {
-    text-decoration: underline;
-    color: #1f1e60;
-} */
-
-/* .project-image-container {
-    margin-bottom: 36px;
-} */
-
-/* .project-paragraph {
-    font-size: 18px;
-} */
 
 .back-button-container {
     flex-basis: 100%;
@@ -1099,16 +989,3 @@ blockquote p {
     margin: 0 16px 0 0;
 }
 
-/* @media(max-width: 500px) {
-    .project-container {
-        margin-top: 60px;
-    }
-
-    #project-title {
-        font-size: 32px;
-    }
-
-    .project-h2 {
-        font-size: 25px;
-    }
-} */
