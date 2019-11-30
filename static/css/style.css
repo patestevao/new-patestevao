@@ -296,11 +296,15 @@ header {
     margin-top: 6px;
 }
 
-.main-button-container {
+.main-button {
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    display: block;
     margin-top: 36px;
 }
 
-.main-button {
+.main-button a {
     padding: 12px 18px;
     background: #6e599d;
     border: none;
@@ -319,16 +323,16 @@ header {
     transition: margin-left 0.1s ease-in;
 }
 
-.main-button:hover .main-button-icon .st0 {
+.main-button a:hover .main-button-icon .st0 {
     fill: #fff;
     transition: fill 0.1s ease-in;
 }
 
-.main-button:hover .main-button-icon {
+.main-button a:hover .main-button-icon {
     margin-left: 16px;
 }
 
-.main-button:hover {
+.main-button a:hover {
     background: #4C3D6B;
 }
 
@@ -578,7 +582,7 @@ footer h4 {
         margin-bottom: 0;
     }
 
-    .main-button-container {
+    .main-button {
         margin-top: 18px;
     }
 }
@@ -976,16 +980,16 @@ blockquote p {
     margin-top: 72px;
 }
 
-.centered-button {
+.back-button-container .main-button {
     margin: auto;
 }
 
-.back-button-icon {
+.back-button-container .main-button-icon {
     margin: 0 12px 0 0;
     transform: rotate(180deg);
 }
 
-.back-button:hover .back-button-icon {
+.back-button-container .main-button a:hover .main-button-icon {
     margin: 0 16px 0 0;
 }
 
