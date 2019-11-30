@@ -7,7 +7,7 @@ image: '/work/boa-pedida-app/images/preview.png'
 featured: 'images/featured-image.jpeg'
 intro: 'Boa Pedida is a fictional Brazilian startup project of an app to
         promote and find restaurants that offer food for people with dietary
-        restrictions, such as gluten-free, lactose-free and vegan. '
+        restrictions, such as gluten-free, lactose-free and vegan.'
 ---
 
 ## About the Project
@@ -52,12 +52,3 @@ The following images show some of the resulting screens.
 ![screen 2](images/boa-pedida2.png)
 ![screen 3](images/boa-pedida3.png)
 ![screen 4](images/boa-pedida4.png)
-
-At the same time, I aimed for a balance between being clean and informative,
-following the principle of progressive disclosure when displaying the
-restaurant’s information. For example, neighborhood is an essential information
-about a restaurant when it comes to large Brazilian cities, where the public
-transport is not great and there’s a lot of traffic. Therefore, the
-neighborhood is shown with the restaurant thumbnail in the search list. Other
-information, such as working hours and price range, are important but
-secondary, so they are shown only on the restaurant page.
