@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 {{ if eq .Layout "contact" }}
-        <div class="page-top-content">
+        <div class="page-intro-content">
             <h1>{{ .Title }}</h1>
             <div id="contact-content-container">
 
@@ -9,7 +9,7 @@
 
                 <p>PGP: {{ .Param "pgp_id" }}</p>
                 <p class="large-text">Otherwise, follow me around the web:</p>
-                <ul class="contact-social-list">
+                <ul class="social-list">
                     {{ partial "social-links.html" . }}
                 </ul>
             </div>

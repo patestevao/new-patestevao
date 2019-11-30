@@ -111,7 +111,7 @@ li {
     height: auto;
 }
 
-.page-top-content {
+.page-intro-content {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
@@ -147,7 +147,7 @@ header {
 }
 
 @media(max-width: 500px) {
-    .page-top-content {
+    .page-intro-content {
         margin-top: 24px;
     }
 }
@@ -194,7 +194,7 @@ header {
     width: 100%;
 }
 
-#index-top-content {
+#index-hero {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
@@ -219,7 +219,7 @@ header {
 #profile-bg {
     position: absolute;
     top: -150px;
-    right: -30px;
+    right: 0px;
     height: 500px;
     z-index: -99;
 }
@@ -256,7 +256,7 @@ header {
     margin-right: 0;
 }
 
-#home-articles-container {
+#index-articles-container {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
@@ -371,31 +371,38 @@ footer h4 {
     text-align: center;
 }
 
-.footer-email {
+footer p {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.5em;
     text-align: center;
 }
 
-.footer-social-list {
+/* footer .social-list {
     list-style-type: none;
     margin: auto;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+} */
+
+.social-list {
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
 }
 
-.footer-social-items {
+.social-list li {
     display: inline-block;
     margin: 0 12px;
 }
 
-.footer-social-link {
+.social-list a {
     display: inline-block;
     position: relative;
 }
 
-.footer-social-link:after {
+.social-list a:after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -404,7 +411,7 @@ footer h4 {
     height: 3px;
     background-color: #222;
     background: linear-gradient(90deg, #ffe8d9, #ffb9d8, #c8f4dc, #96e2eb, #b39bea);
-    bottom: 1px;
+    bottom: 0;
 }
 
 .one-line {
@@ -427,13 +434,9 @@ footer h4 {
         flex-basis: 58%;
     }
 
-    .top-section {
+    /* .top-section {
         height: auto;
-    }
-
-    .nav-link:after {
-        bottom: 0;
-    }
+    } */
 
     h1 {
         font-size: 30px;
@@ -458,11 +461,11 @@ footer h4 {
         flex-flow: column;
     }
 
-    header, footer, #index-top-content, #home-articles-container, #secondary-bio-section {
+    header, footer, #index-hero, #index-articles-container, #secondary-bio-section {
         flex-basis: 80%;
     }
 
-    #home-articles-container {
+    #index-articles-container {
         max-width: 80%;
     }
 
@@ -489,12 +492,15 @@ footer h4 {
     }
 
     .nav-link {
-        /* padding: 0 6px; */
         margin-left: 18px;
         margin-right: 18px;
     }
 
-    #index-top-content {
+    .nav-link:after {
+        display: none;
+    }
+
+    #index-hero {
         margin-top: 60px;
         margin-bottom: 36px;
         flex-flow: row wrap;
@@ -541,22 +547,25 @@ footer h4 {
         font-size: 20px;
     }
 
-    .footer-social-items {
-        display: inline-block;
+    .social-list li {
         margin: 12px;
     }
 
-    .footer-social-links {
-        padding: 0 2px;
+    .social-list a {
+        padding: 6px;
+    }
+
+    .social-list a:after {
+        bottom: 6px;
     }
 }
 
 @media(max-width: 500px) {
-    header, footer, #index-top-content, #home-articles-container, #secondary-bio-section {
+    header, footer, #index-hero, #index-articles-container, #secondary-bio-section {
         flex-basis: 96%;
     }
 
-    #home-articles-container {
+    #index-articles-container {
         max-width: 96%;
     }
 
@@ -778,57 +787,23 @@ footer h4 {
     text-decoration: underline;
 }
 
-.contact-social-list {
-    list-style-type: none;
-    /* margin: auto; */
+#contact-content-container .social-list {
     text-align: left;
     font-size: 24px;
 }
 
-.contact-social-items {
-    display: inline-block;
-    margin: 0 24px 0 0;
-}
-
-.contact-social-link {
-    display: inline-block;
-    position: relative;
-}
-
-.contact-social-link:after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background-color: #222;
-    background: linear-gradient(90deg, #ffe8d9, #ffb9d8, #c8f4dc, #96e2eb, #b39bea);
-    bottom: -3px;
+#contact-content-container .social-list li:first-child {
+    margin-left: 0;
 }
 
 @media(max-width:700px){
 
-    #contact-container {
-        margin-bottom: 12px;
-        margin-top: 60px;
-    }
-
-    .contact-social-items {
-        margin-bottom: 36px;
-    }
-
-    .contact-social-list {
-        font-size: 24px;
+    #contact-content-container .social-list {
         text-align: center;
     }
 
-    .contact-text {
-        font-size: 21px;
-    }
-
-    .contact-text-small {
-        font-size: 18px;
+    #contact-content-container .social-list li:first-child {
+        margin-left: 12px;
     }
 }
 
