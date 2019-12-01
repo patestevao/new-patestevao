@@ -9,19 +9,24 @@ title = "Patrícia Estevão"
 [permalinks]
 	articles = "/articles/:slug"
 	work = "/work/:slug"
+	talks = "/talks/:slug"
 
 [[ menu.main ]]
 	name = "Work"
 	url = "/work/"
 	weight = 1
 [[ menu.main ]]
+	name = "Talks"
+	url = "/talks/"
+	weight = 2
+[[ menu.main ]]
 	name = "Articles"
 	url = "/articles/"
-	weight = 2
+	weight = 3
 [[ menu.main ]]
 	name = "Contact"
 	url = "/contact/"
-	weight = 3
+	weight = 4
 
 [[ menu.social ]]
 	name = "Twitter"
