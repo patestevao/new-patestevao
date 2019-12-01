@@ -2,7 +2,7 @@
 title: 'Boa Pedida App'
 slug: 'boa-pedida-app'
 tags: ["ux",  "mobile", "ui"]
-date: '2019-09-20'
+date: '2019-11-27'
 image: '/work/boa-pedida-app/images/preview.png'
 featured: 'images/featured-image.jpeg'
 intro: 'Boa Pedida is a fictional Brazilian startup project of an app to

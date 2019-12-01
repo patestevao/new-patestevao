@@ -2,7 +2,7 @@
 title: 'Lightning Network UX Research'
 slug: 'lightning-network-ux-research'
 tags: ["ux",  "bitcoin", "lightning"]
-date: '2019-09-20'
+date: '2019-11-25'
 image: '/work/lightning-network-ux-research/images/preview.png'
 featured: 'images/featured.png'
 intro: "Independent UX research about the intial state of the Bitcoin's

@@ -625,7 +625,7 @@ footer p {
 
 .work-grid-summary-container {
     position: absolute;
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
     bottom: -245px;
     background: rgba(20,20,20,0.6);
