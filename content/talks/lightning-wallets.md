@@ -1,5 +1,5 @@
 ---
-title: 'Designing Lightning wallets'
+title: 'Designing Lightning wallets for the Bitcoin user'
 slug: 'designing-lightning-wallets'
 tags: ["bitcoin",  "ux"]
 date: '2019-11-29'

@@ -14,8 +14,6 @@ body {
 a {
     text-decoration: none;
     color: #333;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
     font-size: 18px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -631,6 +629,7 @@ footer p {
     padding: 12px;
     height: auto;
     bottom: 0;
+    box-sizing: border-box;
 }
 
 .grid-link:hover .grid-summary-container {
@@ -648,7 +647,7 @@ footer p {
 
 #work .grid-summary-container {
     height: 100%;
-    bottom: -245px;
+    bottom: -220px;
     transition: all 0.2s ease-in-out;
 }
 
