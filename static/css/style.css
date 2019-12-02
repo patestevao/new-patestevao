@@ -577,8 +577,8 @@ footer p {
     }
 
     .nav-link {
-        margin-left: 12px;
-        margin-right: 12px;
+        margin: auto;
+        letter-spacing: 0;
     }
 
     footer {
@@ -602,7 +602,7 @@ footer p {
     overflow-x: auto;
 }
 
-.work-grid {
+.grid {
     display: flex;
     flex-flow: row wrap;
     flex-basis: 936px;
@@ -611,58 +611,80 @@ footer p {
     justify-content: space-between;
 }
 
-.work-grid-item-container {
+.grid-item-container {
     flex-basis: 462px;
     height: 286px;
     overflow: hidden;
 }
 
-.work-4-column-container, .work-grid-item-container {
+.grid-item-container {
     background: #e0e0e0;
     margin-bottom: 12px;
     position: relative;
 }
 
-.work-grid-summary-container {
+.grid-summary-container {
     position: absolute;
     width: 100%;
-    height: 100%;
-    bottom: -245px;
     background: rgba(20,20,20,0.6);
     color: #fff;
     padding: 12px;
+    height: auto;
+    bottom: 0;
+}
+
+.grid-link:hover .grid-summary-container {
+    transform: none;
+}
+
+.grid-summary {
+    display: none;
+}
+
+.grid-title {
+    margin-bottom: 4px;
+    margin: 6px 0;
+}
+
+#work .grid-summary-container {
+    height: 100%;
+    bottom: -245px;
     transition: all 0.2s ease-in-out;
 }
 
-.work-grid-link {
+.grid-link {
     display: block;
     height: 100%;
 }
 
-.work-grid-link:hover .work-grid-summary-container {
+#work .grid-summary {
+    display: block;
+}
+
+#work .grid-link:hover .grid-summary-container {
     transform: translateY(-180px);
 }
 
-.work-grid-title {
+#work .grid-title {
     bottom: 0;
     margin: 6px 0 12px 0;
 }
 
 @media(max-width: 900px) {
-    .work-grid-summary-container {
+    #work .grid-summary-container {
         height: auto;
         bottom: 0;
     }
 
-    .work-grid-link:hover .work-grid-summary-container {
+    #work .grid-link:hover .grid-summary-container {
         transform: none;
     }
 
-    .work-grid-summary {
+    #work .grid-summary {
         display: none;
     }
 
-    .work-grid-title {
+    #work .grid-title {
         margin-bottom: 4px;
     }
 }
@@ -672,7 +694,7 @@ footer p {
 }
 
 @media(max-width: 1000px) {
-    .work-grid-item-container {
+    .grid-item-container {
         flex-basis: 49%;
     }
 
@@ -682,7 +704,7 @@ footer p {
 }
 
 @media(max-width:700px){
-    .work-grid-item-container {
+    .grid-item-container {
         flex-basis: 100%;
     }
 
@@ -701,7 +723,7 @@ footer p {
 }
 
 @media(max-width:500px){
-    .work-grid-item-container {
+    .grid-item-container {
         flex-basis: 100%;
     }
 

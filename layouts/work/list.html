@@ -13,13 +13,13 @@
             </div> -->
         <!-- </div> -->
     </div>
-    <div class="work-grid">
+    <div id="work" class="grid">
         {{ range where .Pages "Section" "work" }}
-        <div id="" class="work-grid-item-container" style="background: url('{{ .Params.image }}'); background-size: cover; background-position: center;">
-        <a href=" {{ .URL }}" class="work-grid-link">
-            <div class="work-grid-summary-container">
-                <h3 class="work-grid-title">{{ .Title }}</h3>
-                <p class="work-grid-summary">{{ .Params.Intro }}</p>
+        <div id="" class="grid-item-container" style="background: url('{{ .Params.image }}'); background-size: cover; background-position: center;">
+        <a href=" {{ .URL }}" class="grid-link">
+            <div class="grid-summary-container">
+                <h3 class="grid-title">{{ .Title }}</h3>
+                <p class="grid-summary">{{ .Params.Intro }}</p>
             </div>
         </a>
         </div>
