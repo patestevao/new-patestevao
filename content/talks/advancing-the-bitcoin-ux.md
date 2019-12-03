@@ -1,5 +1,5 @@
 ---
-title: 'Advancing the Bitcoin User Experience'
+title: 'Talk: Advancing the Bitcoin User Experience'
 slug: 'advancing-the-bitcoin-ux'
 tags: ["bitcoin",  "ux"]
 date: '2019-11-29'
