@@ -942,7 +942,6 @@ blockquote p {
 }
 
 #error-message a {
-    font-size: 21px;
     font-weight: 700;
     text-decoration: underline;
 }
@@ -953,17 +952,18 @@ blockquote p {
     margin-bottom: 0;
 }
 
-.purple {
-    color: #6e599d;
+.poem {
+    color: #4C3D6B;
+    font-size: 0.9em;
     margin: 0.2em 0;
 }
 
 .poem-container {
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 @media(max-width: 500px) {
-    .poem-container {
-        display: none;
+    #error-page {
+        background: url('../images/bg-404-mobile.png') no-repeat;
     }
 }
