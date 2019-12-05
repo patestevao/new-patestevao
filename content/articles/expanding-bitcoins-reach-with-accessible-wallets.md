@@ -3,7 +3,7 @@ title: 'Expanding Bitcoin’s reach with accessible wallets'
 slug: 'expanding-bitcoins-reach-with-accessible-wallets'
 tags: ["ux", "bitcoin"]
 date: '2019-09-20'
-image: '/articles/expanding-bitcoins-reach-with-accessible-wallets/images/preview.png'
+image: '/articles/expanding-bitcoins-reach-with-accessible-wallets/images/preview.jpeg'
 featured: 'images/featured-image.jpeg'
 intro: 'This article is an organized write-up of notes and insights collected
         during the on-going research we are doing on the subject of accessible
@@ -44,18 +44,18 @@ Here are some of the key information we have gathered so far that give a
 dimension of how many potential users with special needs there are for us to
 reach:
 
-- 54,4% of the world population accesses the internet; (1)
+- 54,4% of the world population accesses the internet; [(1)](#data-sources)
 
-- 1 in 7 people in the world experience some disability; (2)
+- 1 in 7 people in the world experience some disability; [(2)](#data-sources)
 
 - Color blindness (color vision deficiency, or CVD) affects approximately 1 in
-12 men (8%) and 1 in 200 women in the world. (3)
+12 men (8%) and 1 in 200 women in the world. [(3)](#data-sources)
 
 - Brazil’s population is roughly 200 million people with 69% having access to
-the internet and 7.2% people older than 15 years old being illiterate. (4) (5)
+the internet and 7.2% people older than 15 years old being illiterate. [(4)](#data-sources) [(5)](#data-sources)
 
 - An estimated 253 million people live with vision impairment: 36 million are
-blind and 217 million have moderate to severe vision impairment. (6)
+blind and 217 million have moderate to severe vision impairment. [(6)](#data-sources)
 
 ## The approaches for an accessible wallet
 
@@ -211,7 +211,7 @@ that has a distinct impact than the ones that exist so far, you can take the
 challenge up to yourself and be the one that will go the extra mile to build a
 specially-made software that suits a type disability.
 
-Data sources:
+##### Data sources:
 
 1. [https://www.internetworldstats.com/stats.htm](https://www.internetworldstats.com/stats.htm)
 
@@ -225,7 +225,7 @@ Data sources:
 
 6. [http://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment](http://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment)
 
-Other sources:
+##### Other sources:
 
 - [http://universaldesign.ie/What-is-Universal-Design/](http://universaldesign.ie/What-is-Universal-Design/)
 

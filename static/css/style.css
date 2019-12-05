@@ -19,10 +19,10 @@ a {
     word-wrap: break-word;
     -ms-word-break: break-all;
     word-break: break-word;
-    -ms-hyphens: auto;
+    /* -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
-    hyphens: auto;
+    hyphens: auto; */
 }
 
 h1 {
@@ -80,6 +80,10 @@ p {
     font-size: 18px;
     line-height: 1.5em;
     margin: 0.8em 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
 }
 
 ul, ol {
@@ -279,7 +283,8 @@ header {
 .article-preview-link {
     display: block;
     padding: 12px 0;
-    margin-top: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .article-preview-link:hover {
@@ -517,9 +522,9 @@ footer p {
         margin: auto;
     }
 
-    .article-preview-link {
+    /* .article-preview-link {
         margin-bottom: 48px;
-    }
+    } */
 
     .article-preview-container {
         flex-flow: row wrap;
@@ -791,8 +796,8 @@ footer p {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 #articles-list-container:first-child {
@@ -878,6 +883,12 @@ article img+em {
     margin-top: -1em;
 }
 
+article img+em a {
+    color: #555;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
 article iframe {
     margin: 2em auto;
     display: block;
@@ -902,6 +913,10 @@ blockquote p {
 }
 
 @media(max-width: 500px) {
+    blockquote{
+        margin: 24px 12px;
+    }
+
     blockquote p {
         font-size: 18px;
     }
