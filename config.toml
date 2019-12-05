@@ -48,6 +48,10 @@ title = "Patrícia Estevão"
 	name = "LinkedIn"
 	url = "https://www.linkedin.com/in/patestevao"
 	weight = 5
+[[ menu.social ]]
+	name = "Medium"
+	url = "https://medium.com/@patestevao"
+	weight = 6
 
 [markup.goldmark.renderer]
 	unsafe= true

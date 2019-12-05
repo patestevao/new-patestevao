@@ -549,7 +549,7 @@ footer p {
     }
 
     .social-list li {
-        margin: 12px;
+        margin: 12px 8px;
     }
 
     .social-list a {
@@ -761,10 +761,6 @@ footer p {
 }
 
 @media(max-width:700px){
-
-    #contact-content-container .social-list {
-        text-align: center;
-    }
 
     #contact-content-container .social-list li:first-child {
         margin-left: 12px;
