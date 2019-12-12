@@ -27,23 +27,27 @@ a {
 
 h1 {
     font-size: 42px;
-    font-weight: 700;
+    /* font-weight: 700; */
     text-align: left;
     line-height: 1.5em;
     flex-basis: 100%;
     color: #333;
+    font-weight: 400;
+    font-family: 'Lora', serif;
 }
 
 h2 {
     font-size: 30px;
     text-align: left;
     font-weight: 400;
+    font-family: 'Lora', serif;
     line-height: 1.5em;
     margin-top: 48px;
     margin-bottom: 12px;
 }
 
 h3 {
+    font-family: 'Lora', serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.5em;
@@ -53,6 +57,7 @@ h3 {
 }
 
 h4 {
+    font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 1.5em;
@@ -62,6 +67,7 @@ h4 {
 }
 
 h5 {
+    font-family: 'Lora', serif;
     font-weight: 700;
     font-size: 1.1em;
     line-height: 1.5em;
@@ -70,6 +76,7 @@ h5 {
 }
 
 h6 {
+    font-family: 'Lora', serif;
     font-size: 1em;
     font-weight: 700;
     margin: 1.5em 0 1em 0;
@@ -148,6 +155,10 @@ header {
     margin-top: 0;
 }
 
+#hero-message h1 {
+    font-size: 60px;
+}
+
 @media(max-width:700px){
     #page-top-container{
         margin-bottom: 12px;
@@ -163,11 +174,36 @@ header {
     .page-intro-content {
         margin-top: 24px;
     }
+
+    .page-top-section {
+        margin-top: 24px;
+    }
 }
 
 #logo-container {
     flex-basis: 50%;
     text-align: left;
+}
+
+#home-link {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: #222;
+    display: inline-block;
+    position: relative;
+}
+
+#home-link:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    background: linear-gradient(90deg, #ffe8d9, #ffb9d8, #c8f4dc, #96e2eb, #b39bea);
+    bottom: 0;
 }
 
 #logo-image {
@@ -198,7 +234,7 @@ header {
     width: 0;
     height: 3px;
     background-color: #333;
-    bottom: 12px;
+    bottom: 0;
     transition: all 0.2s ease-in;
 }
 
@@ -210,7 +246,7 @@ header {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-bottom: 100px;
     display: flex;
     align-items: center;
@@ -369,7 +405,7 @@ header {
     flex-basis: 55%;
 }
 
-#secondary-bio-message p:first-of-type {
+#secondary-bio-message h3 {
     margin-top: 0;
 }
 
@@ -406,6 +442,7 @@ footer p {
 .social-list a {
     display: inline-block;
     position: relative;
+    font-weight: 700;
 }
 
 .social-list a:after {
@@ -440,6 +477,10 @@ footer p {
         flex-basis: 58%;
     }
 
+    #hero-message h1 {
+        font-size: 48px;
+    }
+
     h1 {
         font-size: 30px;
     }
@@ -467,6 +508,10 @@ footer p {
         flex-basis: 80%;
     }
 
+    #hero-message h1 {
+        font-size: 36px;
+    }
+
     #index-articles-container {
         max-width: 80%;
     }
@@ -491,6 +536,7 @@ footer p {
 
     #logo-container {
         text-align: center;
+        margin-bottom: 12px;
     }
 
     .nav-link {
@@ -503,8 +549,8 @@ footer p {
     }
 
     #index-hero {
-        margin-top: 60px;
-        margin-bottom: 36px;
+        margin-top: 36px;
+        margin-bottom: 12px;
         flex-flow: row wrap;
     }
 

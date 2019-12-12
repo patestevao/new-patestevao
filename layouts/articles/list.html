@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-    
+
     <div id="articles-list-container">
       {{/* {{ partial "tag-container.html" . }} */}}
         {{ range where .RegularPages "Section" "articles" }}
@@ -8,7 +8,7 @@
               <img src="{{ .Params.image }}" alt="" class="article-preview-image">
                 <div class="article-preview-content">
                   <h4 class="article-preview-title">{{ .Title }}</h4>
-                    <p class="article-preview-date">{{ .Date.Format "02 Jan, 2006" }}</p>
+                    <p class="date">{{ .Date.Format "02 Jan, 2006" }}</p>
                     <p class="article-preview-summary">{{ .Params.Intro }}</p>
                 </div>
             </div>
