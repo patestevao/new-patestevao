@@ -656,13 +656,13 @@ footer p {
     display: flex;
     flex-flow: row wrap;
     flex-basis: 936px;
-    max-width: 100%;
+    max-width: 96%;
     margin: auto;
     justify-content: space-between;
 }
 
 .grid-item-container {
-    flex-basis: 462px;
+    flex-basis: 443px;
     height: 286px;
     overflow: hidden;
 }
@@ -676,7 +676,7 @@ footer p {
 .grid-summary-container {
     position: absolute;
     width: 100%;
-    background: rgba(20,20,20,0.6);
+    background: rgba(20,20,20,0.8);
     color: #fff;
     padding: 12px;
     height: auto;
@@ -721,6 +721,12 @@ footer p {
     margin: 6px 0 12px 0;
 }
 
+@media(max-width: 1000px) {
+    .grid-item-container {
+        flex-basis: 49.2%;
+    }
+}
+
 @media(max-width: 900px) {
     #work .grid-summary-container {
         height: auto;
@@ -744,42 +750,18 @@ footer p {
     display: block;
 }
 
-@media(max-width: 1000px) {
-    .grid-item-container {
-        flex-basis: 49%;
-    }
-
-    .work-4-column-container {
-        flex-basis: 32%;
-    }
-}
-
 @media(max-width:700px){
+    .grid {
+        max-width: 100%;
+    }
+
     .grid-item-container {
         flex-basis: 100%;
-    }
-
-    .work-4-column-container {
-        flex-basis: 49%;
-    }
-
-    #infographic-1 {
-        order: 4;
     }
 
     #work-intro-container {
         margin-bottom: 12px;
         margin-top: 60px;
-    }
-}
-
-@media(max-width:500px){
-    .grid-item-container {
-        flex-basis: 100%;
-    }
-
-    .work-4-column-container {
-        flex-basis: 100%;
     }
 }
 
