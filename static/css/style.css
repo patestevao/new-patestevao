@@ -298,6 +298,7 @@ header {
 .tag-link:hover {
     color: #4C3D6B;
     border: 1px solid #4C3D6B;
+    text-decoration: none;
 }
 
 .tag-link:last-of-type {
@@ -885,6 +886,10 @@ footer p {
     max-width: 100%;
     margin-top: 48px;
     margin-bottom: 36px;
+}
+
+article .tag-container {
+    margin-top: 18px;
 }
 
 article img {
