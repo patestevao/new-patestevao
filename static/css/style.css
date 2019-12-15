@@ -8,7 +8,7 @@ body {
     margin: auto;
     flex-flow: row wrap;
     font-family: Helvetica, Arial, sans-serif;
-    margin-bottom: 120px;
+    margin-bottom: 6.66rem;
     font-size: 1rem;
     line-height: 1.5em;
     color: #333;
@@ -46,8 +46,8 @@ h2 {
     font-weight: 400;
     font-family: 'Lora', serif;
     line-height: 1.5em;
-    margin-top: 48px;
-    margin-bottom: 12px;
+    margin-top: 2.66rem;
+    margin-bottom: 0.66rem;
 }
 
 h3 {
@@ -56,8 +56,8 @@ h3 {
     font-size: 1.34rem;
     line-height: 1.5em;
     text-align: left;
-    margin-top: 36px;
-    margin-bottom: 12px;
+    margin-top: 2rem;
+    margin-bottom: 0.66rem;
 }
 
 h4 {
@@ -66,8 +66,8 @@ h4 {
     font-size: 1.34rem;
     line-height: 1.5em;
     text-align: left;
-    margin-top: 36px;
-    margin-bottom: 12px;
+    margin-top: 2rem;
+    margin-bottom: 0.66rem;
 }
 
 h5 {
@@ -113,8 +113,8 @@ li {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 36px;
+    margin-top: 3.33rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -139,8 +139,8 @@ li {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 36px;
+    margin-top: 3.33rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -165,7 +165,7 @@ header {
 
 @media(max-width:700px){
     #page-top-container{
-        margin-bottom: 12px;
+        margin-bottom: 0.66rem;
     }
 
     .index-bg-image {
@@ -176,11 +176,11 @@ header {
 
 @media(max-width: 500px) {
     .page-intro-content {
-        margin-top: 24px;
+        margin-top: 1.33rem;
     }
 
     .page-top-section {
-        margin-top: 24px;
+        margin-top: 1.33rem;
     }
 }
 
@@ -222,7 +222,7 @@ header {
 }
 
 .nav-link {
-    margin-left: 24px;
+    margin-left: 1.33rem;
     font-weight: 700;
     letter-spacing: 0.8px;
     color: #222;
@@ -250,8 +250,8 @@ header {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 90px;
-    margin-bottom: 100px;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
     display: flex;
     align-items: center;
 }
@@ -284,7 +284,7 @@ header {
 
 .tag-link {
     flex: 0 0 auto;
-    margin-right: 12px;
+    margin-right: 0.66rem;
     padding: 12px 10px 10px 10px;
     border: 1px solid rgb(200, 180, 241);
     color: #6e599d;
@@ -313,7 +313,7 @@ header {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 48px;
+    margin-top: 2.66rem;
 }
 
 .article-preview-container {
@@ -324,8 +324,8 @@ header {
 .article-preview-link {
     display: block;
     padding: 12px 0;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 0.66rem;
+    margin-bottom: 0.66rem;
 }
 
 .article-preview-link:hover {
@@ -333,7 +333,7 @@ header {
 }
 
 .article-preview-content {
-    margin-left: 18px;
+    margin-left: 1rem;
     align-self: center;
     flex-basis: 66%;
 }
@@ -347,7 +347,7 @@ header {
 }
 
 .article-preview-summary {
-    margin-top: 6px;
+    margin-top:0.33rem;
 }
 
 .main-button {
@@ -355,7 +355,7 @@ header {
     border: none;
     border-radius: 5px;
     display: block;
-    margin-top: 36px;
+    margin-top: 2rem;
 }
 
 .main-button a {
@@ -373,7 +373,7 @@ header {
 .main-button-icon {
     height: 16px;
     width: auto;
-    margin-left: 12px;
+    margin-left: 0.66rem;
     transition: margin-left 0.1s ease-in;
 }
 
@@ -383,7 +383,7 @@ header {
 }
 
 .main-button a:hover .main-button-icon {
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
 .main-button a:hover {
@@ -392,7 +392,7 @@ header {
 
 .main-button-text {
     font-size: 1rem;
-    margin-top: 6px;
+    margin-top:0.33rem;
 }
 
 #secondary-bio-section {
@@ -403,7 +403,7 @@ header {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 8rem;
 }
 
 #secondary-bio-message {
@@ -418,7 +418,7 @@ footer {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 8rem;
 }
 
 footer h4 {
@@ -441,7 +441,7 @@ footer p {
 
 .social-list li {
     display: inline-block;
-    margin: 0 12px;
+    margin: 0 0.66rem;
 }
 
 .social-list a {
@@ -507,7 +507,7 @@ footer p {
     }
 
     footer {
-        margin-top: 100px;
+        margin-top: 6rem;
     }
 }
 
@@ -544,17 +544,17 @@ footer p {
 
     #navigation {
         justify-content: center;
-        margin-top: 24px;
+        margin-top: 1.33rem;
     }
 
     #logo-container {
         text-align: center;
-        margin-bottom: 12px;
+        margin-bottom: 0.66rem;
     }
 
     .nav-link {
-        margin-left: 18px;
-        margin-right: 18px;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .nav-link:after {
@@ -562,19 +562,19 @@ footer p {
     }
 
     #index-hero {
-        margin-top: 36px;
-        margin-bottom: 12px;
+        margin-top: 2rem;
+        margin-bottom: 0.66rem;
         flex-flow: row wrap;
     }
 
     #profile-picture-container {
         margin: auto;
         order: 1;
-        margin-bottom: 36px;
+        margin-bottom: 2rem;
     }
 
     #profile-picture {
-        top: 36px;
+        top: 2rem;
         left: 0;
         bottom: 0;
         right: 0;
@@ -582,7 +582,7 @@ footer p {
     }
 
     /* .article-preview-link {
-        margin-bottom: 48px;
+        margin-bottom: 2.66rem;
     } */
 
     .article-preview-container {
@@ -592,7 +592,7 @@ footer p {
     .article-preview-content {
         flex-basis: 100%;
         margin-left: 0;
-        margin-top: 18px;
+        margin-top: 1rem;
     }
 
     .article-preview-image {
@@ -608,7 +608,7 @@ footer p {
     }
 
     .social-list li {
-        margin: 12px 8px;
+        margin: 0.66rem 0.44rem;
     }
 
     .social-list a {
@@ -644,7 +644,7 @@ footer p {
     }
 
     footer {
-        margin-top: 48px;
+        margin-top: 2.66rem;
     }
 
     .article-preview-link:last-of-type {
@@ -652,7 +652,7 @@ footer p {
     }
 
     .main-button {
-        margin-top: 18px;
+        margin-top: 1rem;
     }
 }
 
@@ -681,7 +681,7 @@ footer p {
 
 .grid-item-container {
     background: #e0e0e0;
-    margin-bottom: 12px;
+    margin-bottom: 0.66rem;
     position: relative;
 }
 
@@ -705,8 +705,8 @@ footer p {
 }
 
 .grid-title {
-    margin-bottom: 4px;
-    margin: 6px 0;
+    margin-bottom: 0.22rem;
+    margin:0.33rem 0;
 }
 
 #work .grid-summary-container {
@@ -730,7 +730,7 @@ footer p {
 
 #work .grid-title {
     bottom: 0;
-    margin: 6px 0 12px 0;
+    margin:0.33rem 0 0.66rem 0;
 }
 
 @media(max-width: 1000px) {
@@ -754,7 +754,7 @@ footer p {
     }
 
     #work .grid-title {
-        margin-bottom: 4px;
+        margin-bottom: 0.22rem;
     }
 }
 
@@ -772,8 +772,8 @@ footer p {
     }
 
     #work-intro-container {
-        margin-bottom: 12px;
-        margin-top: 60px;
+        margin-bottom: 0.66rem;
+        margin-top: 3.33rem;
     }
 }
 
@@ -804,7 +804,7 @@ footer p {
 @media(max-width:700px){
 
     #contact-content-container .social-list li:first-child {
-        margin-left: 12px;
+        margin-left: 0.66rem;
     }
 }
 
@@ -844,8 +844,8 @@ footer p {
 @media(max-width:700px){
 
     #articles-list-intro-container {
-        margin-bottom: 12px;
-        margin-top: 60px;
+        margin-bottom: 0.66rem;
+        margin-top: 3.33rem;
     }
 }
 
@@ -854,7 +854,7 @@ footer p {
 .page-full-width-container {
     flex-basis: 100%;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 6.66rem;
     display: flex;
     flex-flow: row wrap;
     color: #333;
@@ -878,12 +878,12 @@ footer p {
 
 .post-featured-image {
     max-width: 100%;
-    margin-top: 48px;
-    margin-bottom: 36px;
+    margin-top: 2.66rem;
+    margin-bottom: 2rem;
 }
 
 article .tag-container {
-    margin-top: 18px;
+    margin-top: 1rem;
 }
 
 article img {
@@ -894,7 +894,7 @@ article img {
 }
 
 article ul, article ol {
-    margin-left: 12px;
+    margin-left: 0.66rem;
 }
 
 article li {
@@ -937,7 +937,7 @@ article iframe {
 
 /* Maybe you want to remove the .quote (but not blockquote!)... */
 blockquote{
-    margin: 24px 36px;
+    margin: 1.33rem 2rem;
 }
 
 blockquote p {
@@ -955,7 +955,7 @@ blockquote p {
 
 @media(max-width: 500px) {
     blockquote{
-        margin: 24px 12px;
+        margin: 1.33rem 0.66rem;
     }
 
     blockquote p {
@@ -968,7 +968,7 @@ blockquote p {
 .back-button-container {
     flex-basis: 100%;
     margin: auto;
-    margin-top: 72px;
+    margin-top: 4rem;
 }
 
 .back-button-container .main-button {
@@ -976,12 +976,13 @@ blockquote p {
 }
 
 .back-button-container .main-button-icon {
-    margin: 0 12px 0 0;
+    margin: 0 0.66rem 0 0;
     transform: rotate(180deg);
+    transition: all 0.1s ease-in;
 }
 
 .back-button-container .main-button a:hover .main-button-icon {
-    margin: 0 16px 0 0;
+    margin: 0 1rem 0 0;
 }
 
 #error-page{
