@@ -599,7 +599,7 @@ footer p {
         margin-top: 1rem;
     }
 
-    .article-preview-image {
+    .preview-image-container {
         flex-basis: 100%;
     }
 
@@ -638,7 +638,7 @@ footer p {
         right: -50px;
     }
 
-    .article-preview-image {
+    .article-preview-image, .preview-image-container {
         display: none;
     }
 
