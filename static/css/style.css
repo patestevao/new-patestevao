@@ -316,9 +316,13 @@ header {
     margin-top: 2.66rem;
 }
 
+.preview-image-container {
+    flex-basis: 34%;
+}
+
 .article-preview-container {
     display: flex;
-    flex-flow: row no-wrap;
+    flex-flow: row nowrap;
 }
 
 .article-preview-link {
@@ -339,7 +343,7 @@ header {
 }
 
 .article-preview-image {
-    flex-basis: 34%;
+    max-width: 100%;
 }
 
 .article-preview-title, .article-preview-summary {
