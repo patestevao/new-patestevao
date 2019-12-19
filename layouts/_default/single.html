@@ -7,7 +7,7 @@
 
             	{{ .Content | replaceRE "<p>" "<p class=\"large-text\">" | safeHTML }}
 
-                <p>PGP: {{ .Param "pgp_id" }}</p>
+                <p><a class="underlined-link" href="/patestevao.asc">PGP: {{ .Param "pgp_id" }}</a></p>
                 <p class="large-text">Otherwise, follow me around the web:</p>
                 <ul class="social-list">
                     {{ partial "social-links.html" . }}

@@ -109,6 +109,10 @@ li {
     font-size: 1.17rem;
 }
 
+.underlined-link {
+    text-decoration: underline;
+}
+
 .page-top-section {
     flex-basis: 936px;
     max-width: 96%;
