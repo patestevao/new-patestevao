@@ -1,0 +1,57 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Patrícia Estevão"
+
+[ params ]
+	contact_email = "hello@patestevao.com"
+	pgp_id = "A386 CED7 90E2 715C 37EA 6145 BBD3 997C F194 482B"
+
+[permalinks]
+	articles = "/articles/:slug"
+	work = "/work/:slug"
+	talks = "/talks/:slug"
+
+[[ menu.main ]]
+	name = "Work"
+	url = "/work/"
+	weight = 1
+[[ menu.main ]]
+	name = "Talks"
+	url = "/talks/"
+	weight = 2
+[[ menu.main ]]
+	name = "Articles"
+	url = "/articles/"
+	weight = 3
+[[ menu.main ]]
+	name = "Contact"
+	url = "/contact/"
+	weight = 4
+
+[[ menu.social ]]
+	name = "Twitter"
+	url = "https://twitter.com/patestevao"
+	weight = 1
+[[ menu.social ]]
+	name = "GitHub"
+	url = "https://github.com/patestevao"
+	weight = 2
+[[ menu.social ]]
+	name = "Dribble"
+	url = "https://dribbble.com/patestevao"
+	weight = 3
+[[ menu.social ]]
+	name = "Behance"
+	url = "https://www.behance.net/patestevao"
+	weight = 4
+[[ menu.social ]]
+	name = "LinkedIn"
+	url = "https://www.linkedin.com/in/patestevao"
+	weight = 5
+[[ menu.social ]]
+	name = "Medium"
+	url = "https://medium.com/@patestevao"
+	weight = 6
+
+[markup.goldmark.renderer]
+	unsafe= true

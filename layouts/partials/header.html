@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Hello, I’m a privacy-focused UX Designer.">
+    <meta name="keywords" content="UX, Design, Usability, Bitcoin, Privacy">
+    <meta name="author" content="Patrícia Estevão">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
+    <!-- social and description tags -->
+    <!-- <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+  	<meta property="og:image" content="">
+    <meta name="twitter:image" content="">
+    <meta property="og:title" content="">
+    <meta name="twitter:title" content="">
+    <meta name="description" content="">
+    <meta property="og:description" content="">
+    <meta name="twitter:description" content=""> -->
+</head>
+<body>
+  {{ partial "head_custom.html" . }}

@@ -1,0 +1,16 @@
+<div class="page-top-section">
+        <header>
+            <div id="logo-container">
+                <a href="/" id="home-link">
+                    <!-- <img id="logo-image" src="{{ "/images/logo.svg" | relURL }}" alt=""> -->
+                    Patrícia Estevão
+                </a>
+            </div>
+            <nav id="navigation">
+                {{ range .Site.Menus.main }}
+                {{ $name := humanize .Name }}
+                <a href="{{ .URL }}" class="nav-link">{{ $name }}</a>
+                {{ end }}
+            </nav>
+        </header>
+    </div>

@@ -1,0 +1,18 @@
+  {{ partial "header.html" . }}
+    <div id="articles-list-container">
+        <h1 id="work-title">Tag "{{ .Title }}"</h1>
+        {{ partial "tag-container.html" . }}
+        {{ range .Data.Pages }}
+        <a href="{{ .URL }}" class="article-preview-link">
+            <div class="article-preview-container">
+              <img src="{{ .Params.image }}" alt="" class="article-preview-image">
+                <div class="article-preview-content">
+                  <h4 class="article-preview-title">{{ .Title }}</h4>
+                    <p class="article-preview-date">{{ .Date.Format "02 Jan, 2006" }}</p>
+                    <p class="article-preview-summary">{{ .Params.Intro }}</p>
+                </div>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+  {{ partial "footer.html" . }}

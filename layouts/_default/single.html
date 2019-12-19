@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+{{ if eq .Layout "contact" }}
+        <div class="page-intro-content">
+            <h1>{{ .Title }}</h1>
+            <div id="contact-content-container">
+
+            	{{ .Content | replaceRE "<p>" "<p class=\"large-text\">" | safeHTML }}
+
+                <p><a class="underlined-link" href="/patestevao.asc">PGP: {{ .Param "pgp_id" }}</a></p>
+                <p class="large-text">Otherwise, follow me around the web:</p>
+                <ul class="social-list">
+                    {{ partial "social-links.html" . }}
+                </ul>
+            </div>
+        </div>
+
+</body>
+</html>
+{{ end }}
