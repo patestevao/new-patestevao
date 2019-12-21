@@ -4,6 +4,7 @@ slug: 'infographic-collection'
 tags: ["illustration",]
 date: '2019-11-10'
 image: '/work/infographic-collection/images/preview.png'
+socialimg: 'images/preview.png'
 featured: ''
 intro: 'Collection with a few of my previous infographic work.'
 ---

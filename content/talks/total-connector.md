@@ -5,6 +5,7 @@ tags: ["bitcoin",  "ux"]
 date: '2019-11-20'
 image: '/talks/total-connector/images/preview.png'
 featured: ''
+socialimg: 'images/preview.png'
 intro: 'Podcast episode on The total connector about my projects and perspectives regarding the importance of UX for Bitcoin.'
 ---
 

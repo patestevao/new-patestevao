@@ -4,6 +4,7 @@ slug: 'bitcoindesigned'
 tags: ["ux", "ui", "infographics", "bitcoin"]
 date: '2019-11-30'
 image: '/work/bitcoindesigned/images/preview.png'
+socialimg: 'images/preview.png'
 featured: 'images/featured.png'
 intro: 'Bitcoin designed is a collection of design resources about Bitcoin related topics.'
 ---

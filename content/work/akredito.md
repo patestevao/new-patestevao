@@ -4,6 +4,7 @@ slug: 'akredito'
 tags: ["ux", "ui"]
 date: '2019-11-22'
 image: '/work/akredito/images/preview.jpg'
+socialimg: 'images/preview.jpg'
 featured: 'images/akredito1.png'
 intro: 'The Akredito project was a fintech application created to solve a common financial problem in Brazil.'
 ---

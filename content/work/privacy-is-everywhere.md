@@ -4,6 +4,7 @@ slug: 'privacy-is-everywhere'
 tags: ["video",  "animation", "illustration"]
 date: '2019-11-29'
 image: '/work/privacy-is-everywhere/images/preview.gif'
+socialimg: 'images/preview.gif'
 featured: 'images/featured.gif'
 intro: 'Privacy is everywhere is a short animation video about how ubiqutous is the value of privacy in our daily lives.'
 ---

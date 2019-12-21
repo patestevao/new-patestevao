@@ -4,6 +4,7 @@ slug: 'expanding-bitcoins-reach-with-accessible-wallets'
 tags: ["ux", "bitcoin"]
 date: '2019-09-20'
 image: '/articles/expanding-bitcoins-reach-with-accessible-wallets/images/preview.jpeg'
+socialimg: 'images/preview.jpeg'
 featured: 'images/featured-image.jpeg'
 intro: 'This article is an organized write-up of notes and insights collected
         during the on-going research we are doing on the subject of accessible

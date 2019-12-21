@@ -4,6 +4,7 @@ slug: 'txplab'
 tags: ["UI",  "UX", "branding"]
 date: '2019-11-15'
 image: '/work/txplab/images/preview.png'
+socialimg: 'images/preview.png'
 featured: 'images/featured.png'
 intro: 'txplab was a tech consulting company focused on startups and small businesses.'
 ---

@@ -5,6 +5,7 @@ tags: ["bitcoin",  "ux"]
 date: '2019-11-25'
 image: '/talks/blockchain-realisten/images/preview.png'
 featured: ''
+socialimg: 'images/preview.png'
 intro: 'Podcast episode on Bottomshelf Bitcoin where we talked about User Eperience (UX), Bitcoin infographics, and my research on the preliminar UX of the Lightning Network.'
 ---
 

@@ -5,6 +5,7 @@ tags: ["bitcoin",  "ux"]
 date: '2019-11-29'
 image: '/talks/designing-lightning-wallets/images/preview.png'
 featured: 'images/featured.png'
+socialimg: 'images/preview.png'
 intro: 'Talk at Building on Bitcoin (2018), Lisbon.'
 ---
 

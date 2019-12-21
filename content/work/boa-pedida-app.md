@@ -4,6 +4,7 @@ slug: 'boa-pedida-app'
 tags: ["ux",  "mobile", "ui"]
 date: '2019-11-27'
 image: '/work/boa-pedida-app/images/preview.png'
+socialimg: 'images/preview.png'
 featured: 'images/featured-image.jpeg'
 intro: 'Boa Pedida is a fictional Brazilian startup project of an app to
         promote and find restaurants that offer food for people with dietary

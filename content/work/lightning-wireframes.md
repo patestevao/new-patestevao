@@ -4,6 +4,7 @@ slug: 'lightning-wireframes'
 tags: ["bitcoin", "ux", "mobile"]
 date: '2019-11-29'
 image: '/work/lightning-wireframes/images/preview.png'
+socialimg: 'images/preview.png'
 featured: ''
 intro: 'Wireframes concepts for a Bitcoin Lightning network wallet.'
 ---
