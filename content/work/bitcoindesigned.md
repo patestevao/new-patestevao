@@ -9,6 +9,8 @@ featured: 'images/featured.png'
 intro: 'Bitcoin designed is a collection of design resources about Bitcoin related topics.'
 ---
 
+This project and its resources are available at [bitcoindesigned.com/](https://www.bitcoindesigned.com/).
+
 ## About the project
 
 Bitcoin designed is a collection of design resources about Bitcoin related topics.
