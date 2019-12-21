@@ -576,7 +576,7 @@ footer p {
     }
 
     #index-hero {
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-bottom: 0.66rem;
         flex-flow: row wrap;
     }
@@ -667,6 +667,12 @@ footer p {
 
     .main-button {
         margin-top: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    #index-hero {
+        margin-top: 0;
     }
 }
 
