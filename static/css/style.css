@@ -954,6 +954,7 @@ article img+em a {
 article iframe {
     margin: 2em auto;
     display: block;
+    max-width: 100%;
 }
 
 /* Maybe you want to remove the .quote (but not blockquote!)... */
