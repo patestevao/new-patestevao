@@ -7,9 +7,9 @@
     <meta name="author" content="Patrícia Estevão">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "/css/normalize.css" | relURL }}" />
-    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
-    <link rel="icon" href="{{ "/images/favicon.ico" | relURL }}">
+    <link rel="stylesheet" href='{{ "/css/normalize.css" | relURL }}' />
+    <link rel="stylesheet" href='{{ "/css/style.css" | relURL }}' />
+    <link rel="icon" href='{{ "/images/favicon.ico" | relURL }}' />
     <!-- social and description tags -->
     <meta name="twitter:card" content="summary">
     <meta name="keywords" content="UX, Design, Usability, Bitcoin, Privacy">
@@ -18,8 +18,8 @@
     <meta property="og:image" content="{{ .Params.socialimg }}">
     <meta name="twitter:image" content="{{ .Params.socialimg }}">
     {{ else }}
-    <meta property="og:image" content="{{ "/images/generic-social-image.png" | relURL }}">
-    <meta name="twitter:image" content="{{ "/images/generic-social-image.png" | relURL }}">
+    <meta property="og:image" content='{{ "/images/generic-social-image.png" | relURL }}'>
+    <meta name="twitter:image" content='{{ "/images/generic-social-image.png" | relURL }}'>
     {{ end }}
     <meta property="og:title" content="{{ .Title }}">
     <meta name="twitter:title" content="{{ .Title }}">
