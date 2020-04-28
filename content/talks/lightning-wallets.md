@@ -15,6 +15,8 @@ This talk was presented at the conference Building on Bitcoin on July 3rd, 2018,
 
 The full name of the talk as *"Designing Lightning wallets for the Bitcoin user"* and it focused on the expected design challenges for this new concept of Bitcoin wallets — the lightning wallets. A new learning curve will be imposed to users beyond the already existing complexities that were abstracted in the form of metaphors in the most simple forms of Bitcoin wallets.
 
-I've made the [keynote for this talk available](https://drive.google.com/file/d/1A1bnEhp885rbqmZBKseVrNu1cygwxm3l/view?usp=sharing), but you can also watch the full talk:
+I've made the [keynote for this talk available](https://drive.google.com/file/d/1A1bnEhp885rbqmZBKseVrNu1cygwxm3l/view?usp=sharing), but you can also [watch the full talk on Youtube by clicking here](https://youtu.be/XORDEX-RrAI?t=6034) or on the following image:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XORDEX-RrAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![talk preview picture](images/bob-picture.png)](https://youtu.be/XORDEX-RrAI?t=6034)
+
+
