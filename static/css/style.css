@@ -146,8 +146,8 @@ li {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 3.33rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.33rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -188,6 +188,7 @@ header {
 
     .page-top-section {
         margin-top: 1.33rem;
+        margin-bottom: 0.66rem;
     }
 }
 
@@ -257,8 +258,8 @@ header {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     display: flex;
     align-items: center;
 }
@@ -320,7 +321,7 @@ header {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 2.66rem;
+    margin-top: 2rem;
 }
 
 .preview-image-container {
