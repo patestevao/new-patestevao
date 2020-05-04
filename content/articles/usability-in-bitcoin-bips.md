@@ -4,6 +4,7 @@ slug: 'usability-in-bitcoin-bips'
 tags: ["bitcoin", "ux"]
 date: '2018-03-10'
 image: '/articles/usability-in-bitcoin-bips/images/preview.jpeg'
+socialimg: 'images/preview.jpeg'
 featured: 'images/featured.jpeg'
 intro: 'I’m going to talk about BIPs, an element of the Bitcoin environment that has had an important role in improving the system so we could get to the current level of usability.'
 ---

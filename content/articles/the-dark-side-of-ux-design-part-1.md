@@ -4,6 +4,7 @@ slug: 'the-dark-side-of-ux-design-part-1'
 tags: ["dark patterns", "ux"]
 date: '2018-02-06'
 image: '/articles/the-dark-side-of-ux-design-part-1/images/preview.jpeg'
+socialimg: 'images/preview.jpeg'
 featured: 'images/featured.jpeg'
 intro: 'In the 1st part, I showed how changes in our consumption paradigms has influenced the way we present products and how it translates to our designs. Here in part 2, I’ll give real life examples of how companies have used and still use these dark patterns.'
 ---

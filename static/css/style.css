@@ -10,9 +10,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     margin-bottom: 6.66rem;
     font-size: 1rem;
-    line-height: 1.5em;
+    line-height: 1.6em;
     color: #333;
     background: #fcfcfc;
+    letter-spacing: 0.4px;
 }
 
 a {
@@ -89,12 +90,14 @@ h6 {
 
 p {
     font-size: 1rem;
-    line-height: 1.5em;
+    line-height: 1.6em;
     margin: 0.8em 0;
     overflow-wrap: break-word;
     word-wrap: break-word;
     -ms-word-break: break-all;
     word-break: break-word;
+    line-break: loose;
+    letter-spacing: 0.4px;
 }
 
 ul, ol {
@@ -143,8 +146,8 @@ li {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 3.33rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.33rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -185,6 +188,7 @@ header {
 
     .page-top-section {
         margin-top: 1.33rem;
+        margin-bottom: 0.66rem;
     }
 }
 
@@ -210,7 +214,7 @@ header {
     width: 100%;
     height: 3px;
     background-color: #222;
-    background: linear-gradient(90deg, #ffe8d9, #ffb9d8, #c8f4dc, #96e2eb, #b39bea);
+    background: #FED7E1;
     bottom: 0;
 }
 
@@ -241,7 +245,7 @@ header {
     left: 0;
     width: 0;
     height: 3px;
-    background-color: #333;
+    background-color: #FED7E1;
     bottom: 0;
     transition: all 0.2s ease-in;
 }
@@ -254,8 +258,8 @@ header {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     display: flex;
     align-items: center;
 }
@@ -317,7 +321,7 @@ header {
     flex-basis: 936px;
     max-width: 96%;
     margin: auto;
-    margin-top: 2.66rem;
+    margin-top: 2rem;
 }
 
 .preview-image-container {
@@ -368,9 +372,11 @@ header {
 
 .main-button a {
     padding: 12px 18px;
-    background: #6e599d;
+    background: #FED7E1;
     border: none;
-    color: #fff;
+    color: #333;
+    letter-spacing: 0.8px;
+    font-weight: 700;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -385,8 +391,12 @@ header {
     transition: margin-left 0.1s ease-in;
 }
 
+.main-button a .main-button-icon .st0 {
+    fill: #333;
+}
+
 .main-button a:hover .main-button-icon .st0 {
-    fill: #fff;
+    fill: #333;
     transition: fill 0.1s ease-in;
 }
 
@@ -395,7 +405,7 @@ header {
 }
 
 .main-button a:hover {
-    background: #4C3D6B;
+    background: #FFB5B9;
 }
 
 .main-button-text {
@@ -403,10 +413,10 @@ header {
 }
 
 @-moz-document url-prefix() {
-    .main-button-text {
-        margin-top:0.33rem;
+    .main-button a {
+        padding: 15px 18px 12px 18px;
     }
-  }
+}
 
 #secondary-bio-section {
     display: flex;
@@ -471,7 +481,7 @@ footer p {
     width: 100%;
     height: 3px;
     background-color: #222;
-    background: linear-gradient(90deg, #ffe8d9, #ffb9d8, #c8f4dc, #96e2eb, #b39bea);
+    background: #FED7E1;
     bottom: 0;
 }
 
@@ -575,7 +585,7 @@ footer p {
     }
 
     #index-hero {
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-bottom: 0.66rem;
         flex-flow: row wrap;
     }
@@ -666,6 +676,12 @@ footer p {
 
     .main-button {
         margin-top: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    #index-hero {
+        margin-top: 0;
     }
 }
 
@@ -874,7 +890,7 @@ footer p {
 }
 
 .post-content-container {
-    flex-basis: 720px;
+    flex-basis: 36rem;
     max-width: 96%;
     margin: auto;
     color: #333;
@@ -907,11 +923,12 @@ article img {
 }
 
 article ul, article ol {
-    margin-left: 0.66rem;
+    padding-left: 1.2rem;
+    box-sizing: border-box;
 }
 
 article li {
-    padding-left: 12px;
+    padding-left: 4px;
     line-height: 1.5em;
     margin: 0.8em 0;
     font-size: 1rem;
@@ -946,6 +963,7 @@ article img+em a {
 article iframe {
     margin: 2em auto;
     display: block;
+    max-width: 100%;
 }
 
 /* Maybe you want to remove the .quote (but not blockquote!)... */
@@ -973,6 +991,10 @@ blockquote p {
 
     blockquote p {
         font-size: 1rem;
+    }
+
+    article ul, article ol {
+        padding-left: 1.4rem;
     }
 }
 

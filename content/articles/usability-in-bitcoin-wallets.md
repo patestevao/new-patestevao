@@ -4,6 +4,7 @@ slug: 'usability-in-bitcoin-wallets'
 tags: ["bitcoin", "ux"]
 date: '2018-05-11'
 image: '/articles/usability-in-bitcoin-wallets/images/preview.jpeg'
+socialimg: 'images/preview.jpeg'
 featured: 'images/featured.jpeg'
 intro: 'Following up the last two articles on Bitcoin usability, we’re going to approach the vast topic of wallets focusing on the advantages and disadvantages perceived in each described type in terms of usability.'
 ---

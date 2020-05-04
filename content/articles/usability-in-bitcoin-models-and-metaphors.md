@@ -4,6 +4,7 @@ slug: 'usability-in-bitcoin-models-and-metaphors'
 tags: ["bitcoin", "ux"]
 date: '2018-02-28'
 image: '/articles/usability-in-bitcoin-models-and-metaphors/images/preview.jpeg'
+socialimg: 'images/preview.jpeg'
 featured: 'images/featured.jpeg'
 intro: 'Through these next articles, I want to strengthen this relationship between
 usability and security of people’s funds. This first one will be talking about the use of mental models and metaphors in Bitcoin intefaces.'
