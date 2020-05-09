@@ -1,41 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="author" content="Patrícia Estevão">
-        <title>{{ .Title }} | {{ .Site.Title }}</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{ "/css/normalize.css" | relURL }}" />
-        <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
-        <link rel="icon" href="{{ "/images/favicon.ico" | relURL }}">
-    </head>
-    <body id="error-page">
-        {{ partial "head_custom.html" . }}
-        <div class="page-top-section" id="error-message">
-            <h1>Error 404, page not found.</h1>
+{{ partial "header.html" . }}
 
-            <p>The page you are looking for isn't here.</p>
-            <p>You can come back to the <a href="/">home page</a>, if you wish.</p>
-            <p>Or you can go another way, as long as you know where you want to go ;)</p>
-            <div class="poem-container">
-                <p class="poem"><em>
-                    “Would you tell me, please, which way I ought to go from here?"
-                </em></p>
-                <p class="poem"><em>
-                    "That depends a good deal on where you want to get to."
-                </em></p>
-                <p class="poem"><em>
-                    "I don't much care where –"
-                </em></p>
-                <p class="poem"><em>
-                    "Then it doesn't matter which way you go.”
-                </em></p>
-                <p class="poem"><em>
-                    - Lewis Carroll, Alice in Wonderland
-                </em></p>
-            </div>
-        </div>
-    </body>
-</html>
+<div class="page-intro-content" id="error-message">
+    <h1>Error 404, page not found.</h1>
+
+    <p>The page you are looking for isn't here.
+        <br>
+        You can come back to the <a href="/">home page</a>, if you wish.
+        <br>
+        Or you can go another way, as long as you know where you want to go ;)</p>
+    <div class="poem-container">
+        <p class="poem"><em>
+            “Would you tell me, please, which way I ought to go from here?"
+        </em></p>
+        <p class="poem"><em>
+            "That depends a good deal on where you want to get to."
+        </em></p>
+        <p class="poem"><em>
+            "I don't much care where –"
+        </em></p>
+        <p class="poem"><em>
+            "Then it doesn't matter which way you go.”
+        </em></p>
+        <p class="poem"><em>
+            - Lewis Carroll, Alice in Wonderland
+        </em></p>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}
