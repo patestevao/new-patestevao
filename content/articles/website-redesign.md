@@ -14,10 +14,16 @@ On the previous version of patestevao.com, I had taken the site as an opportunit
 So, naturally, I had been feeling the need for a redesign for some time now. Not because I suddenly got tired of CSS flexbox, but because I wanted to design something more fit-to-function, at the same time that I’d make my website a conscious mirror of my professional style and values.
 
 This is a brief overview of how the previous version of the website was organized in its two main pages:
-- Home: My name, brief presentation, social media links, contact info, and links to work page and external projects.
-- Work: a hub of external links to other services Behance, Dribbble, Gitbook, Youtube, Vimeo, Google Drive, and Imgur. Also, contact info and link back to home.
 
-To achieve that personal reflection, there were a few key aspects I had to take into consideration throughout the redesign.
+![screenshot of homepage in previous version](images/desktop-homepage.png)
+
+**Home:** My name, brief presentation, social media links, contact info, and links to work page and external projects.
+
+![screenshot of work page in previous version](images/desktop-work-page-cut.png)
+
+**Work:** a hub of external links to other services Behance, Dribbble, Gitbook, Youtube, Vimeo, Google Drive, and Imgur. Also, contact info and link back to home.
+
+To achieve that personal reflection with the new design, there were a few key aspects I had to take into consideration throughout the redesign.
 
 **1. Usable before edgy.**
 
@@ -70,6 +76,9 @@ As said above, articles were part of the curated content I chose for the website
 **3. When did I start working exclusively with infographics?**
 
 Since they were the only pieces of work that had image previews available, infographics were at the very spotlight of the "work" page. Even though infographics are something I very much like to work with, they are not my main specialty and line of work. Therefore, my old work page was somewhat misleading.
+
+![gif showing navigation in the previous version](images/old-patestevao.gif)
+*This navigation sample shows how much the infographic work would stand out due to the scrolling area it occupied.*
 
 The work page now features my curated projects, all with preview images of equal hierarchical importance. Also, the list of infographics was condensed into one single work project, as to not give disproportionate importance to them just because they are more numerous.
 
