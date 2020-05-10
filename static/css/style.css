@@ -31,23 +31,23 @@ h1 {
     text-align: left;
     line-height: 1.5em;
     flex-basis: 100%;
-    color: #333;
-    font-weight: 400;
-    font-family: 'Lora', serif;
+    font-weight: 700;
+    color: #333333;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 h2 {
     font-size: 1.65rem;
     text-align: left;
     font-weight: 400;
-    font-family: 'Lora', serif;
+    font-family: Helvetica, Arial, sans-serif;
     line-height: 1.5em;
     margin-top: 2.66rem;
     margin-bottom: 0.66rem;
 }
 
 h3 {
-    font-family: 'Lora', serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 1.34rem;
     line-height: 1.5em;
@@ -57,7 +57,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Lora', serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1.34rem;
     line-height: 1.5em;
@@ -67,7 +67,7 @@ h4 {
 }
 
 h5 {
-    font-family: 'Lora', serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
     line-height: 1.5em;
@@ -76,7 +76,7 @@ h5 {
 }
 
 h6 {
-    font-family: 'Lora', serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 700;
     margin: 1.5em 0 1em 0;
@@ -162,6 +162,14 @@ header {
 
 #hero-message h1 {
     font-size: 3.33rem;
+}
+
+#hero-highlight {
+    position: relative;
+    left: 10px;
+    padding-left: 0;
+    box-shadow: 10px 0 0 #FED7E1, -10px 0 0 #FED7E1;
+    background-color: #FED7E1;
 }
 
 @media(max-width:700px){
