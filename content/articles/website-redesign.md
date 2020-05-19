@@ -1,9 +1,9 @@
 ---
-title: 'The patestevao.com redesign: a study-case'
-slug: 'patestevao-redesign-study-case'
+title: 'The patestevao.com redesign: a case study'
+slug: 'patestevao-redesign-case-study'
 tags: ["usability", "ux", "frontend"]
 date: '2020-01-30'
-image: '/articles/patestevao-redesign-study-case/images/preview.jpg'
+image: '/articles/patestevao-redesign-case-study/images/preview.jpg'
 socialimg: 'images/preview.jpg'
 featured: 'images/featured.jpg'
 intro: 'As I redesigned this website to properly fit my needs as a public portfolio of my work, I also took the opportunity of sharing a bit of my thought process as a designer facing a new project.'
