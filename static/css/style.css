@@ -166,7 +166,6 @@ header {
 
 #hero-highlight {
     position: relative;
-    left: 6px;
     padding-left: 0;
     box-shadow: 6px 0 0 #FED7E1, -6px 0 0 #FED7E1;
     background-color: #FED7E1;
