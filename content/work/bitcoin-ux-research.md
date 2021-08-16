@@ -2,12 +2,11 @@
 title: 'Bitcoin UX Research'
 slug: 'bitcoin-ux-research'
 tags: ["ux",  "bitcoin", "user interviews"]
-date: '2021-08-17'
+date: '2021-08-15'
 image: '/work/bitcoin-ux-research/images/preview.png'
 socialimg: 'images/preview.png'
 featured: 'images/featured.png'
 intro: "This research is meant to provide in-depth qualitative knowledge of how people use or perceive Bitcoin. By doing so, we hope that solution creators will be able to empathise with the problems, needs, and goals of Bitcoin users and potential adopters."
-
 ---
 
 ## Index
@@ -48,30 +47,30 @@ intro: "This research is meant to provide in-depth qualitative knowledge of how 
 
 * [Acknowledgements](#acknowledgements)
 
-# Introduction
+## Introduction
 
-## Author
+### Author
 
 This research was conducted by Patrícia Estevão, a UX Designer and researcher with interest and experience in Bitcoin and its associated challenges.
 
-## Research grant
+### Research grant
 
 This piece was enabled by a research grant offered by [SquareCrypto](https://squarecrypto.org/#grants), with the expectation that the results would be open source and focused on helping the Bitcoin environment as a whole.
 
-## License
+### License
 This material is licensed under the terms of the [Attribution ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
-## Summary
+### Summary
 
 As described in the [proposal document](https://github.com/patestevao/Bitcoin-UX-research-proposal) for this research, the main goal behind this effort is to provide in-depth qualitative knowledge of how people use or perceive Bitcoin. By doing so, we hope that protocol and software development, as well as product conception and design, will be able to empathise with the problems, needs, and goals of Bitcoin users and potential adopters.
 
 To answer the fundamental questions we were aiming for, we resorted to live audio interviews of selected participants from multiple backgrounds and experiences. From these, we gathered enough insights to create an image of who a current Bitcoin user might be. These insights will be presented in the form of quotes, stories, and personas and are intended to bring a more human perspective to future developments in the industry. 
 
-### A privacy note and what to expect from this material
+#### A privacy note and what to expect from this material
 
 Due to the nature of this subject being potentially sensitive, as it touches both financial and political spheres, the participant's profiles will be kept private. So there won't be a single persona based on a single real person, instead, we'll present a mix and match of relevant aspects to create fictional personas based on real information and real people. More details about this will be brought up in the relevant sections.
 
-## Motivation
+### Motivation
 
 Bitcoin is an incredibly innovative and fast-paced technology, which is what one would expect from a global effort of brilliant minds working on the same infrastructure. This is something fascinating for me as a professional but can become a source of distress for me as a user.
 
@@ -79,15 +78,15 @@ It is my belief that working and getting right the very foundations of this tech
 
 That's why, in a time where so much is happening at a technology level, I chose to take a step back to the very foundations and initial questions we must have answered if we are to design considering people's needs. 
 
-## Timeline
+### Timeline
 
 This research was conducted during the period of 6-7 months extending from mid-January 2021 to August 2021.
 
 A rough timeline of the work can be found below:
 
-![Timeline for the research](Images/timeline.png)
+![Timeline for the research](images/timeline.png)
 
-# Objectives
+## Objectives
 
 In one sentence, the objective of this research is to create an illustration of the Bitcoin onboarding journey based on the experience of real users.
 
@@ -99,9 +98,9 @@ To guide us in this mission, we'll use the following broad research questions:
 
 The focus will be both on the abstract user perception of Bitcoin as a technology and how it affects their life, as well as on their practical experience with the interfaces they have to deal with. Everything in this research will be based on the user's perspective, which might not always mirror the factual reality. However, it is in our interest given the context of this project as a design-led effort, to focus on their mental model instead of the absolute technical reality. 
 
-# Resources and Methodology
+## Resources and Methodology
 
-## UX interviews: what and why
+### UX interviews: what and why
 
 UX interviews or User interviews are a UX research method that consists of a facilitator talking directly to users in 1-on-1 sessions and making them questions about a specific theme. These questions are usually broad and open-ended in a way that the user can have space to share their stories and experiences without feeling constrained.
 
@@ -126,9 +125,9 @@ Considering the objective of our study concerns this broad comprehension of the 
 
 We hope it will serve as a qualitative complement to the already existing quantitative researches on this matter, giving us a much-needed human piece in understanding Bitcoin's impact.
 
-## Internal methodology for the interviews
+### Internal methodology for the interviews
 
-### Call for participants
+#### Call for participants
 
 In order to advertise and explain the interview process to potential participants, we created a public document with a call for participants that was shared via social media in three different languages: English, Portuguese and Spanish. For a reference of the English version, you can refer [here](https://github.com/patestevao/Bitcoin-UX-interviews/blob/main/call-for-participants.md).
 The main goals of this document were:
@@ -139,7 +138,7 @@ The main goals of this document were:
 - To inform what were the profile requirements for an eligible participant.
 - To inform on the step by step process expected for someone who applied, including a link to the next step which was the screening questionnaire.
 
-### Initial screening
+#### Initial screening
 
 Having in mind the limitations of the user interview methodology, namely the inability to interview a very large set of participants, we chose to add a screening process to this research that would allow us to carefully choose who would be interviewed.
 
@@ -153,7 +152,7 @@ The screening consisted of a questionnaire published along with the call for par
 
 Based on the resulting answers, we manually chose a set of participants with the most varied background and experience possible in order to bring as much richness as possible to the interviews.
 
-### Conducting the interviews
+#### Conducting the interviews
 
 The interviews were 1-hour audio calls, scheduled previously so that participants could find themselves comfortable and ready to give proper attention to the subject. Even though we had a formal purpose for being there, we tried to avoid having a formal format in the interview so that people would feel more at ease with the number of questions. Essentially, we tried to make it closer to a conversation.
 
@@ -164,19 +163,19 @@ A script was created to help the interviewer cover the main points of interest. 
 
 For reference this was the script that was loosely followed:
 
-#### Perception of social context:
+**Perception of social context:**
 
 - How would you describe the social context of the place you live in?
 - How would you describe people's relationship with Bitcoin or other cryptocurrencies in your circles?
 
-#### Beginning of relationship with Bitcoin:
+**Beginning of relationship with Bitcoin:**
 
 - How did you first use Bitcoin?
 - What do you use Bitcoin for?
 - How did you learn about Bitcoin?
 - What aspect of Bitcoin interested you most?
 
-#### Feelings surrounding Bitcoin:
+**Feelings surrounding Bitcoin:**
 
 - How does it feel using Bitcoin? Are you comfortable, afraid? Is it easy, tiring?
 - Is there any part of using Bitcoin that you find the hardest or don't understand?
@@ -184,14 +183,14 @@ For reference this was the script that was loosely followed:
 - Do you feel that you could use something other than Bitcoin for the same purpose you use?
 - Have you ever had any problems using Bitcoin?
 
-#### Grasping technical knowledge:
+**Grasping technical knowledge:**
 
 - How much would you say that you understand Bitcoin? From the computer science or economic perspective?
 - Would you share what types of wallets you use?
 - Do you have a personal security protocol to use Bitcoin?
 - Are you actively involved with Bitcoin in some way? E.g. work with it, reads a lot about it, participates in any community, etc?
 
-### Interview compensation
+#### Interview compensation
 
 When conducting UX interviews, it's common practice to offer compensation in exchange for people's participation. This is done both to show respect and consideration for the person's time, but also to objectively increase the quality of participants in the study. 
 
@@ -203,7 +202,7 @@ Although we are not completely immune to the risks concerning the "quality" of p
 
 The value itself and the way the compensation is paid can vary a lot depending on the research subject, the target audience, and the level of time/commitment that will be asked from participants. In our case, the decided value was the equivalent of US$100 paid exclusively through a Bitcoin transaction.
 
-## User personas
+### Creating user personas
 
 User personas will be the culmination of the research work as the main method to transform the insights from the interviews into actionable material for designers, developers, and other creators.
 
@@ -213,7 +212,7 @@ Although it's possible to create personas based on the designer's perception onl
 
 For further understanding on the theme of user personas, [this article](https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them) is a good starting point.
 
-## Privacy implications and risk mitigations
+### Privacy implications and risk mitigations
 
 As Bitcoin touches many spheres of life, it's considered a highly sensitive subject to ask people about. Some of the most important being: personal financial information and personal political views. Therefore, it's something that we, as researchers, should be respectful of when asking a user to share.
 
@@ -228,9 +227,9 @@ This is a summary of the measures taken on this research to mitigate the privacy
 - No audio from the interviews will be shared or made public.
 - The participant's profile and story will be mixed with the others in the creation of our design personas, so we won't present a reflection on any particular individual.
 
-# User Stories
+## User Stories
 
-## User bias
+### User bias
 
 Throughout the research, we noticed a participant bias that is worth mentioning and taking into consideration when evaluating the results here presented. 
 
@@ -242,13 +241,13 @@ So why does that matter? This doesn't invalidate in the slightest the results th
 
 It might just be that we are still in a phase of Bitcoin adoption that most users will be these "actively interested users", in part because they still have to overcome the prejudices and misinformation that is widespread on the subject in order to trust the technology enough to put their money on it. But, once again, it is something to have in mind when designing for the future users we want to reach.
 
-## Demographics
+### Demographics
 
-### Interesting facts from the screening process
+#### Interesting facts from the screening process
 
 As stated before, this is not a piece of research focused on statistically relevant quantitative results. However, considering we used an open questionnaire as the screening method for the interviews, it felt like a waste not to comment anything on the overall answers we got. But it's better to face these as not more than interesting facts instead of proper statistic results.
 
-#### Main reason for Bitcoin usage
+###### Main reason for Bitcoin usage
 
 When asked about the main reason why they used Bitcoin, people were presented with the following options:
 
@@ -274,7 +273,7 @@ The first, which is not completely unexpected, is that in a country where the ec
 
 The second conclusion is that, even in a pool with more users located in countries with a considered strong economy, the use case of wanting to protect themselves from the current economic situation is still one of the strongest ones. This can mean one of two things, or a combination of both: either the protection against fiat economy is one of the strongest use cases for Bitcoin at the moment, or the people who are interested in Bitcoin tend to be the ones questioning the reliability of the fiat economy. 
 
-#### Frequency of usage 
+###### Frequency of usage 
 
 When asked about the frequency with which they used Bitcoin, users have been presented with the following options:
 
@@ -293,11 +292,11 @@ This can have multiple explanations, but a couple of educated guesses could be:
 
 However, this is not the most interesting aspect of this data as we can only make vague assumptions about it. What's useful to note is that, overall, the vast majority of participants stated that they are active users, with a relevant usage frequency. This information can help guide future wallet features and better define user priorities.
 
-### Interviewees
+#### Interviewees
 
 In total, we interviewed 21 participants from multiple locations around the world. According to the answers from the screening questionnaire, their demographic profile varied in the following:
 
-#### Origin or country of residence
+###### Origin or country of residence
 
 This refers to the location where this user has had the most experience using Bitcoin and has some understanding of the social context, be it their country of origin or not. The countries reached were: 
 - Australia
@@ -319,11 +318,11 @@ This refers to the location where this user has had the most experience using Bi
 - Venezuela
 
 **World map with participants' countries**
-![World map highlighted with participants countries](Images/Countries.png)
+![World map highlighted with participants countries](images/Countries.png)
 
 For better contextualization, we've gathered some basic information about each of these countries. All of the data comes from Wikipedia and this research is merely reproducing without questioning any of them.
 
-##### Australia
+###### Australia
 
 **Population:** 25,837,549
 
@@ -339,7 +338,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 130% of GDP 
 
-##### Brazil
+###### Brazil
 
 **Population:** 213,459,366
 
@@ -355,7 +354,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 38% of GDP
 
-##### Germany
+###### Germany
 
 **Population:** 83,121,363
 
@@ -371,7 +370,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 165% of GDP
 
-##### Greece
+###### Greece
 
 **Population:** 10,718,565
 
@@ -387,7 +386,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 298% of GDP
 
-##### Israel
+###### Israel
 
 **Population:** 9,376,994
 
@@ -403,7 +402,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 33% of GDP
 
-##### Italy
+###### Italy
 
 **Population:** 59,169,131
 
@@ -419,7 +418,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 141% of GDP
 
-##### Kenya
+###### Kenya
 
 **Population:** 47,564,296
 
@@ -435,7 +434,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 26% of GDP
 
-##### Mexico
+###### Mexico
 
 **Population:** 126,014,024
 
@@ -451,7 +450,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 43% of GDP
 
-##### Nigeria
+###### Nigeria
 
 **Population:** 211,401,000
 
@@ -467,7 +466,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 2% of GDP
 
-##### Philippines
+###### Philippines
 
 **Population:** 110,543,395
 
@@ -483,7 +482,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 27% of GDP
 
-##### Portugal
+###### Portugal
 
 **Population:** 10,298,252
 
@@ -499,7 +498,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 203% of GDP
 
-##### Romania
+###### Romania
 
 **Population:** 19,317,984
 
@@ -515,7 +514,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 58% of GDP
 
-##### Spain
+###### Spain
 
 **Population:** 47,394,223
 
@@ -531,7 +530,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 170% of GDP
 
-##### Syria
+###### Syria
 
 **Population:** 18,276,000
 
@@ -547,7 +546,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 24% of GDP
 
-##### United Kingdom
+###### United Kingdom
 
 **Population:** 67,081,234
 
@@ -563,7 +562,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 345% of GDP
 
-##### United States
+###### United States
 
 **Population:** 332,085,405
 
@@ -579,7 +578,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 102% of GDP
 
-##### Venezuela
+###### Venezuela
 
 **Population:** 28,705,000
 
@@ -602,7 +601,7 @@ For better contextualization, we've gathered some basic information about each o
 [External debt](https://en.wikipedia.org/wiki/List_of_countries_by_external_debt)
 [Currencies exchange rates – July 28th, 2021](https://www.x-rates.com/table/?from=USD&amount=1)
 
-#### Work profile
+##### Work profile
 
 This refers to their broad professional actuation area.
 - STEM (science, technology, engineering, and mathematics): 7 participants
@@ -612,7 +611,7 @@ This refers to their broad professional actuation area.
 - Business: 3 participants
 - Art and design: 5 participants
 
-#### First Bitcoin usage
+##### First Bitcoin usage
 
 This refers to the broad period when the person used Bitcoin for the first time, which doesn't necessarily correspond to the first time they heard about Bitcoin.
 - Before 2017: 5 participants
@@ -622,7 +621,7 @@ This refers to the broad period when the person used Bitcoin for the first time,
 
 * Even though the proposal was to only interview people who had already used Bitcoin at least once, there was one exception of an interesting profile we happened to come by and decided to incorporate into the research. This was someone familiar with Bitcoin, had a wallet installed, had a backup, had received a small transaction, but didn't feel had enough incentives to overcome the usability challenges they found. As such, it was deemed as an opportunity to further enrich the research insights.
 
-#### Frequency of usage
+##### Frequency of usage
 
 This refers to the overall frequency of Bitcoin transactions, be it sending or receiving, the participant usually engages in:
 
@@ -632,7 +631,7 @@ This refers to the overall frequency of Bitcoin transactions, be it sending or r
 - Once every few months: 5 participants
 - Even less than the above options: 1 participant
 
-#### Main Bitcoin use case
+##### Main Bitcoin use case
 
 This refers to the user's primary reason, broadly speaking, for starting to use Bitcoin, even if other use cases co-exist nowadays:
 
@@ -643,7 +642,7 @@ This refers to the user's primary reason, broadly speaking, for starting to use 
 - I use it for political reasons: 2 participant
 - None of the above
 
-## User personas
+### User personas
 
 Given the results from the user interviews, we've gathered and combined the most interesting insights into 5 personas of current Bitcoin users. Making it 5 allowed us to reflect a variety of profiles and user roles without creating such a large number that would dissipate too much content and lose its value for a designer or other interested professional.
 
@@ -651,48 +650,48 @@ Each persona is completely fictional in the sense that it is formed by insights 
 
 As the personas have their profile and stories, we used mostly coherent characteristics that would make it plausible to see them as real people. Although we managed to place most of the desired insights into a persona, any relevant information that was left out is shared throughout this report in other sections.
 
-### Musa
+#### Musa
 
 ***The one for whom Bitcoin fits right in.***
 
-#### Country 
+##### Country 
 Nigeria
 
-#### Age 
+##### Age 
 22
 
-#### Occupation 
+##### Occupation 
 Product development at a local startup.
 
-#### Frequency of usage (medium-high)
+##### Frequency of usage (medium-high)
 
 Is always moving money in and out of Bitcoin in order to live.
 
-#### Conscious importance given to Bitcoin being decentralized (high)
+##### Conscious importance given to Bitcoin being decentralized (high)
 
 Perceives is as seeing the opposite of his local reality of a weak centralized currency. 
 
-#### Conscious importance given to Bitcoin being censorship-resistant (medium-high)
+##### Conscious importance given to Bitcoin being censorship-resistant (medium-high)
 
 Wants to be independent of government and banks restrictions.
 
-#### Conscious importance given to physical security and privacy (high)
+##### Conscious importance given to physical security and privacy (high)
 
 He has a risk of being harassed by police or other security guards that can demand to see his phone and transfer money. Because of this, he puts high value in wallets with the feature of hiding themselves in the app list.
 
-#### Conscious importance given to digital security and privacy (low)
+##### Conscious importance given to digital security and privacy  (low)
 
 Doesn't see any problems in using custodial wallets.
 
-#### How they describe their use case
+##### How they describe their use case
 
 The main use case for Bitcoin is as a store of value, given that the local currency can't be trusted. But also takes it as a long-term investment as he expects it to increase value with wider adoption. "I expect to be an early-adopter in the future"
 
-#### Quote
+##### Quote
 
 > "The perception that Bitcoin is too technical to use can be misleading and scare people away unnecessarily."
 
-#### Musa's story
+##### Musa's story
 
 Musa didn't need to be a cypherpunk or libertarian to understand Bitcoin's value because his daily life in Nigeria has taught him, in practice, not to trust central banking or the government. His reality is of a local fiat currency with a constantly plummeting value and a population who lives with very low incomes on an international level.
 
@@ -704,7 +703,7 @@ His overall relationship with Bitcoin is quite positive in the sense that, rathe
 
 He uses any cryptocurrency that will serve a purpose for him, be it for a short-term investment, local liquidity, etc. But he considers Bitcoin the most solid one at the moment and that's where he keeps his savings.
 
-#### How was their experience so far
+##### How was their experience so far
 
 His initial approach was quite interesting: in order to learn, he did a deep-dive week on which he tried using multiple wallets and doing multiple operations until the operational aspects were clear for him. After that, he didn't have to worry about not knowing what to do.
 
@@ -716,60 +715,60 @@ His greatest complaint is about fees fluctuation, which he says can be quite pro
 
 A second complaint is that Bitcoin is not very human, in his opinion. All important pieces seem made for machines (addresses, hashes, etc), so it can be scary to face a wallet if you are a new user.
 
-#### Their Bitcoin onboarding user journey
+##### Their Bitcoin onboarding user journey
 
-![Musa's Bitcoin journey](Images/Musa.png)
+![Musa's Bitcoin journey](images/Musa.png)
 
-#### Specific frictions and usability pain points encountered
+##### Specific frictions and usability pain points encountered
 - Lack of understanding of custodial risks.
 - Fluctuation in fees that reflect quite strongly in his local currency and purchasing power.
 - Machine-focused elements, such as addresses and hashes.
 
-#### Feelings and keywords
+##### Feelings and keywords
 curiosity, empowerment, challenging, useful.
 
-### Peter
+#### Peter
 
 ***The all-in investor.***
 
-#### Country 
+##### Country 
 United Kingdom
 
-#### Age 
+##### Age 
 52
 
-#### Occupation 
+##### Occupation 
 Civil servant
 
-#### Frequency of usage (medium-low)
+##### Frequency of usage (medium-low)
 
 He doesn't transact much nowadays, mostly to revert profits to fiat.
 
-#### Conscious importance given to Bitcoin being decentralized (medium-high)
+##### Conscious importance given to Bitcoin being decentralized (medium-high)
 
 He knows that Bitcoin is a better store of value than fiat only because there isn't a central government behind it.
 
-#### Conscious importance given to Bitcoin being censorship-resistant (medium)
+##### Conscious importance given to Bitcoin being censorship-resistant (medium)
 
 He actively finds it interesting, but probably wouldn't affect his usage.
 
-#### Conscious importance given to physical security and privacy (medium)
+##### Conscious importance given to physical security and privacy (medium)
 
 Just basic opsec of not announcing that he has a significant Bitcoin investment.
 
-#### Conscious importance given to digital security and privacy (high)
+##### Conscious importance given to digital security and privacy (high)
 
 He pays a service to help him especially with this.
 
-#### How they describe their use case
+##### How they describe their use case
 
 He was mainly interested in a rentable medium/long-term investment, nothing like trading or other types of investment that you need to transform into a job by itself. Particularly after his economic studies that came with the Bitcoin investment, he started valuing it as a store of value against the constant fiat money devaluation.
 
-#### Quote
+##### Quote
 
 > "Uncertainty is something you definitely want to avoid when it comes to money"
 
-#### Peter's story
+##### Peter's story
 
 Peter was looking for a decent medium/long-term investment a few years ago, something for him to maintain, and hopefully increase a bit, his savings. And, even though he had access to everything in the traditional financial market, he was utterly disappointed with what it had to offer. Still, he didn't want to sit down and wait for his purchasing power to go away with inflation.
 
@@ -781,7 +780,7 @@ He has always used traditional Bitcoin exchanges with all the necessary KYC. To 
 
 He identifies himself with the ethos of an uncensorable means of transacting, but wouldn't be comfortable with going illegal if Bitcoin got banned, so he worries about how governments will regulate it.
 
-#### How was their experience so far
+##### How was their experience so far
 
 The first experiences with Bitcoin were a bit stressful for him. The biggest learning curve was the exchange interface, the wallet operational part wasn't so much of a problem after you get used to addresses. However, the idea of having to keep his backup very secure was intimidating and something that he has always worried about. He remembers the anxiety of setting up some wallets that has quite a an alarming backup flow. "There are so many warnings, it's like I'm always about to do something wrong." 
 
@@ -789,61 +788,61 @@ Nowadays, he uses a relatively expensive service that helps him secure his keys 
 
 Although he understands the reason, he still doesn't feel comfortable with the uncertainty of confirmation times. Especially given that you need to wait for 6 confirmations for the transaction to even be acknowledged on some platforms. "Uncertainty is something you definitely want to avoid when it comes to money."
 
-#### Their Bitcoin onboarding user journey
+##### Their Bitcoin onboarding user journey
 
-![Peter's Bitcoin journey](Images/Peter.png)
+![Peter's Bitcoin journey](images/Peter.png)
 
-#### Specific frictions and usability pain points encountered
+##### Specific frictions and usability pain points encountered
 - Complexity on crypto exchanges interfaces.
 - Uncertain confirmation time, in addition to platforms that wait for multiple confirmations to acknowledge the transaction.
 - Pressure into knowing how to keep your backup safe.
 
-#### Feelings and keywords 
+##### Feelings and keywords 
 intimidating, stressful, discovery, learning, trust, solid.
 
-### Ilse
+#### Ilse
 
 ***The Bitcoin nerd.***
 
-#### Country 
+##### Country 
 Germany
 
-#### Age 
+##### Age 
 19
 
-#### Occupation 
+##### Occupation 
 Software developer
 
-#### Frequency of usage (high)
+##### Frequency of usage (high)
 
 Now she uses it as part of her work and to receive regular payments.
 
-#### Conscious importance given to Bitcoin being decentralized (high)
+##### Conscious importance given to Bitcoin being decentralized (high)
 
 Gives it a high personal value, even if she doesn't feel much of the practical need for it.
 
-#### Conscious importance given to Bitcoin being censorship-resistant (high)
+##### Conscious importance given to Bitcoin being censorship-resistant (high)
 
 Gives it a high personal value, even if she doesn't feel much of the practical need for it.
 
-#### Conscious importance given to physical security and privacy (low)
+##### Conscious importance given to physical security and privacy (low)
 
 She lives in a safe environment and is not high-profile enough to be an individual target herself.
 
-#### Conscious importance given to digital security and privacy (medium-high)
+##### Conscious importance given to digital security and privacy  (medium-high)
 
 Uses a hardware wallet and a redundant backup setup.
 
-#### How they describe their use case
+##### How they describe their use case
 
 It started political since this was the reason she got interested in it in the first place. But, as it developed into her profession, her use case evolved into work and receiving international payments for her compensation. An interesting addition to her particular use case was the fact that she started using as an underage before she could be accepted into the traditional fiat system.
 More recently, she took up the role of a merchant as well with her online store side business. 
 
-#### Quote
+##### Quote
 
 > "Even for me – a technical user – Bitcoin felt like executing nuclear code."
 
-#### Ilse's story
+##### Ilse's story
 
 Ilse's Bitcoin journey started when she was still at school. At 16, she learned about it on online forums and was instantly intrigued by the proposed ethos of the project of being censorship-resistant and independent from government and central banks. "I know I speak from a relatively free country, but these are freedoms I don't think should depend on the benevolence of a given government."
 
@@ -854,7 +853,7 @@ In the last few months, she set up an online shop in partnership with a friend o
 
 On her social group, she's the Bitcoin person who tries to evangelize it to everyone. But she believes that her generation will only adopt Bitcoin with modern and cool interfaces, and good UX.
 
-#### How was their experience so far
+##### How was their experience so far
 
 Since she learned how to use Bitcoin before learning how to deal with banks, she found banks much more complicated.
 
@@ -866,60 +865,60 @@ She has also gone through the known experience of accidentally paying a 20$ fee 
 
 Apart from that accident, she doesn't have giant complaints. But she noticed that displaying past addresses is something that is not always easy – or possible – from an interface. The exploration of the transaction history list is overall too simplistic sometimes and lacking better search features. "There should be better ways to track transaction history, it's especially important for merchants."
 
-#### Their Bitcoin onboarding user journey
+##### Their Bitcoin onboarding user journey
 
-![Ilse's Bitcoin journey](Images/Ilse.png)
+![Ilse's Bitcoin journey](images/Ilse.png)
 
-#### Specific frictions and usability pain points encountered
+##### Specific frictions and usability pain points encountered
 - Irreversibility of operations, especially from a programmer/command line point of view.
 - Lack of wallet intelligence regarding automatic fees.
 - Lack of better ways to track transaction history.
 
-#### Feelings and keywords 
+##### Feelings and keywords 
 passion, ideology, study, work
 
-### Hugo
+#### Hugo
 
 ***The one who started using without understanding it first.***
 
-#### Country 
+##### Country 
 Brazil
 
-#### Age 
+##### Age 
 38
 
-#### Occupation 
+##### Occupation 
 writer for an international Bitcoin magazine
 
-#### Frequency of usage (high)
+##### Frequency of usage (high)
 
 Gets weekly pays for his work.
 
-#### Conscious importance given to Bitcoin being decentralized (high)
+##### Conscious importance given to Bitcoin being decentralized (high)
 
 Doesn't trust the government or its currency, so sees Bitcoin as insurance from it.
 
-#### Conscious importance given to Bitcoin being censorship-resistant (medium)
+##### Conscious importance given to Bitcoin being censorship-resistant (medium)
 
 Worries about the power of banks to decide what transactions are allowed or not.
 
-#### Conscious importance given to physical security and privacy (medium-high)
+##### Conscious importance given to physical security and privacy (medium-high)
 
 The fear of violent targeted attacks makes him extra discrete and careful when dealing with strangers and Bitcoin.
 
-#### Conscious importance given to digital security and privacy (medium)
+##### Conscious importance given to digital security and privacy  (medium)
 
 Makes an effort to have an offline wallet, but doesn't have the budget or technical knowledge to go more sophisticated.
 
-#### How they describe their use case
+##### How they describe their use case
 
 His main need – the one who brought him to Bitcoin in the first place – is for easy international payments. This is how he gets paid when he writes articles for international magazines. But he also values a lot the feeling of being more private from government eyes and from the banks which are given almost a "police power" to define what's suspicious or not. Nowadays, he treats it as insurance from many failures of the fiat system.
 
-#### Quote
+##### Quote
 
 > "I believed the anti-Bitcoin argument that Bitcoin couldn't have value because it was not backed by anything until I found out that our fiat money isn't either."
 
-#### Hugo's story
+##### Hugo's story
 
 Hugo didn't have to be convinced about the problems of having a fiat currency under the control of his government. His parents were victims of a serious financial crisis that happened in Brazil a few decades ago, which ended with the government confiscating people's savings. And, even today, he faces daily political turmoil in the country which has a direct effect on the economy and the currency value.
 
@@ -934,7 +933,7 @@ He believes that Bitcoin should be used more as a currency, in opposition to the
 Another belief of his is that a blockchain-based solution could help reduce the issues of political corruption and increase government transparency.
 As for the local adoption, he perceives a common negative association between Bitcoin and the countless scams that used its name and which tricked many people in their desperate attempt to "make money". But he also believes, that, once they understand it, they'll not be so resistant. "It's a people with low education in average but used to changes and improvisation to survive."
 
-#### How was their experience so far
+##### How was their experience so far
 
 Even though his experience started with the pressure of already having his pay-check on a wallet, getting a grasp of the basic wallet operations wasn't so much of a problem. There was a learning period, but it wasn't a traumatic one. Certainly much easier than going through the necessary trouble that it is, both in complexity and taxes, to make an international transaction with fiat in Brazil.
 
@@ -946,59 +945,59 @@ But, in general, he already feels very comfortable with Bitcoin and keeping his 
 
 As for spending, he only used Bitcoin directly for very specific purchases, such as an online VPN. For everything else, he still needs to go through converting into the fiat system first.
 
-#### Their Bitcoin onboarding user journey
+##### Their Bitcoin onboarding user journey
 
-![Hugo's Bitcoin journey](Images/Hugo.png)
+![Hugo's Bitcoin journey](images/Hugo.png)
 
-#### Specific frictions and usability pain points encountered
+##### Specific frictions and usability pain points encountered
 - Complex and unfriendly wallet set up.
 - High or unpredictable confirmation times.
 - Lacks the feeling of support from centralized institutions.
 
-#### Feelings and keywords stability, insurance, fear, tension.
+##### Feelings and keywords stability, insurance, fear, tension.
 
-### Emma
+#### Emma
 
 ***The one who lacks a compelling use-case.***
 
-#### Country 
+##### Country 
 USA
 
-#### Age 
+##### Age 
 29
 
-#### Occupation 
+##### Occupation 
 Reporter on a local news
 
-#### Frequency of usage (low)
+##### Frequency of usage (low)
 
 She started using it because a friend has sent her a bit. But she hasn't done much with it until now.
 
-#### Conscious importance given to Bitcoin being decentralized (low)
+##### Conscious importance given to Bitcoin being decentralized (low)
 
 Finds it an interesting concept, but doesn't have a problem with her local fiat currency (US dollar).
 
-#### Conscious importance given to Bitcoin being censorship-resistant (none)
+##### Conscious importance given to Bitcoin being censorship-resistant (none)
 
 She doesn't seem to have complaints about the fiat system. 
 
-#### Conscious importance given to physical security and privacy (low)
+##### Conscious importance given to physical security and privacy (low)
 
 Especially given the values she has dealt with in Bitcoin, she didn't even think about this. So her worry will be the same as having her phone stolen.
 
-#### Conscious importance given to digital security and privacy (some)
+##### Conscious importance given to digital security and privacy  (some)
 
 Recognizes the dangers of being hacked, but thinks that the best solution is to have a centralized institution to help her with that.
 
-#### How they describe their use case
+##### How they describe their use case
 
 She doesn't feel like there's a use case for her right now. But she might use it if more online merchants accepted it, especially for international transactions which she sees as one of the strong points of Bitcoin.
 
-#### Quote
+##### Quote
 
 > "I agree that banks and credit cards are cumbersome to start with, but they give you support in exchange for that."
 
-#### Emma's story
+##### Emma's story
 
 Emma is your typical "I have a friend who talks about Bitcoin all the time" person. And, as a true advocate, this friend tried explaining some basic Bitcoin concepts and helped her set up a wallet a couple of years ago. But, despite the efforts, she had a hard time understanding the purpose of it or finding a reason that would make it worth the trouble that it seemed to be.
 
@@ -1009,7 +1008,7 @@ The hardest part for her was to trust something led by unknown people on the int
 
 But it isn't a lost affair. The skepticism is starting to fade as she sees that Bitcoin is going more mainstream, the market seems more mature and established, and the fact that the value has risen a lot also increased her confidence in it.
 
-#### How was their experience so far
+##### How was their experience so far
 
 Her experience is limited to the "bitcoin sessions" she had with her friend, so 
 
@@ -1017,24 +1016,24 @@ She found the wallet app relatively easy to navigate through. Sending and receiv
 
 Her friend helped her set up the whole wallet, which meant direct guidance on doing an offline backup by writing the seed on a piece of paper. She still has the seed, but she also doesn't know what she'd need to do to recover the wallet if needed. "Given all the steps I remember from the backup process, I imagine the recovery will be something at least as complicated as that."
 
-#### Their Bitcoin onboarding user journey
+##### Their Bitcoin onboarding user journey
 
-![Emma's Bitcoin journey](Images/Emma.png)
+![Emma's Bitcoin journey](images/Emma.png)
 
-#### Specific frictions and usability pain points encountered
+##### Specific frictions and usability pain points encountered
 - Trusting a decentralized system.
 - Finding a use case given her inclusion in the fiat system.
 - Not having the support feeling that a centralized institution gives her.
 - Making the transition between fiat and Bitcoin.
 - Perceived complexity of the backup and recovery processes.
 
-#### Feelings and keywords skepticism, cumbersome, unpractical.
+##### Feelings and keywords skepticism, cumbersome, unpractical.
 
-### How to interpret and use the personas
+#### How to interpret and use the personas
 
 Although the content is open source and free to be interpreted in one's preferred manner, we'd like to leave suggestions and explanations that we think can be useful when considering them to think about Bitcoin products and solutions.
 
-#### What they're not
+##### What they're not
 
 There are three important disclaimers to be made about the personas for the best understanding of their value.
 
@@ -1045,7 +1044,7 @@ The second disclaimer is that those personas do not represent all current Bitcoi
 Finally, a disclaimer that can seem quite obvious, but it's fundamental for the correct mindset when creating for Bitcoin: those personas should not limit the people we want to reach with Bitcoin. The fact that these users were already successfully reached and found a use for Bitcoin – for most personas – does not mean that audiences beyond current users should be forgotten. 
 Hopefully, by understanding what led to "success stories" for Bitcoin usage and what were the problems they faced, we'll also be able to rethink solutions and help the onboarding of previously unreached people.
 
-#### Using them on a solution
+##### Using them on a solution
 
 A few tips for using a persona if you never did it before.
 
@@ -1059,7 +1058,7 @@ Try to imagine one of these people going about their business and how the soluti
 
 This rather simple exercise will help you uncover possible opportunities or points of improvement that you could work on.
 
-## Quotes and impressions
+### Quotes and impressions
 
 Although not every piece of content from the interviews needs to be reflected in this report, there are some interesting quotes and observations that we thought deserved some space. Some of them just didn't fit any persona for a cohesive profile, others show similarities between experiences even among the limited set of interviewees. 
 
@@ -1103,11 +1102,11 @@ User, with a humorous tone, talking about their experience writing down their se
 
 - Some users are completely excluded from international finance due to their country's political and economic context and Bitcoin has proven to be a viable way for them to transact internationally. In the cases we interviewed, the use case was to be paid for work they performed for international companies, be it a wage or a freelance payment. Nevertheless, they don't consider it a solution that is commonly used by other people in their countries and is not a risk-free path for them personally.
 
-# Recommendations
+## Recommendations
 
 This section goes beyond the research results themselves and adds some of the researcher's thoughts on opportunities unveiled by the interviews. We won't go into many details since our goal is to inspire solutions and not decide them.
 
-## The fiat to crypto transition
+### The fiat to crypto transition
 
 It seems inevitable at this point that, for many users, the transition between fiat and Bitcoin will be an inherent part of their Bitcoin journey. This may not be a reality anymore when there's a more diverse and widespread economy surrounding Bitcoin. When this time comes, users will be able to get their first Bitcoin from a job or another type of payment and will be able to spend it in exchange for the goods and services they need.
 
@@ -1123,7 +1122,7 @@ Some theoretical ways to address this gap could be:
 - Help and FAQ pages with the needed explanation and suggestion of exchange services.
 - Exchange services that are less focused on the investor/trader profile and with a better UX for simple currency exchanges.
 
-## Transaction confirmation uncertainties
+### Transaction confirmation uncertainties
 
 Some steps of the Bitcoin experience are challenging to deal with from the UX point of view because they are rooted in how the protocol itself works. However, it's still worth stating and discussing them because, even if something might look unsolvable at a certain moment, it could be approached in unexpected ways in the future. The uncertainty of confirmation times is one of these examples.
 
@@ -1131,7 +1130,7 @@ A waiting time of 10 minutes is not itself the problem, from what we heard from 
 
 From our interpretation, this uncertainty becomes more problematic not on its own but in combination with other exacerbating factors.
 
-### Extra options for confirmation time
+#### Extra options for confirmation time
 
 One of these factors relates to the way Bitcoin developed itself through time. With the growth of the network, the space in blocks became more competitive and the fees market also increased in value – at some points, it increased a lot. This led to the concept of "transaction priority" or "speed", in which the user can determine how much money they are willing to spend on fees in a trade-off between this fee value and the priority the transaction will have from the miners' point of view. In other words, people can choose to pay less if they are willing to wait more time.
 
@@ -1143,7 +1142,7 @@ On top of that, when a user chooses a low fee for their transaction, they risk h
 
 Therefore, we have all of these complexities to account for when we think about the feelings of tension and uncertainty that we heard users express.
 
-### Extra confirmations required by platforms
+#### Extra confirmations required by platforms
 
 On top of the feeling of delay that we explained above, we add the fact that many platforms require multiple transaction confirmations before they consider a payment complete – usually six confirmations. As the waiting increases, so does the tension, the fear of having done something wrong, etc.
 
@@ -1159,7 +1158,7 @@ Also, it can be valid to give some idea of the time it takes for the payment to 
 
 Still on this subject but with a different provocation, lies the question: do all service providers need to wait for 6 confirmations to accept a payment? To be clear, we are not stating necessarily otherwise since we are not doing a risk analysis in the name of any business. But it wasn't unheard of in the past to have merchants accept payments with less or no confirmations if they were low in value. The suggestion here is not a specific path to be taken, but a reminder the 6 confirmations are not a fixed standard. It was a choice made by many in the past but that can be questioned and re-evaluated by others in the future.
 
-### Uncertainty regarding Bitcoin itself
+#### Uncertainty regarding Bitcoin itself
 
 As a final point regarding the uncertainty felt by users when waiting for transaction confirmation, there is the uncertainty still felt regarding Bitcoin itself.
 
@@ -1167,7 +1166,7 @@ It can be problematic, boring, and frustrating to wait many hours for a transact
 
 So maybe this is one of the pieces of this problem that can be addressed. It's not as straightforward as changing a design pattern or adding extra information in the interface, though. It requires a global effort of making users feel more comfortable and confident when using Bitcoin, which can range from education to friendly interfaces. Imagination is key here.
 
-## Fees fluctuation
+### Fees fluctuation
 
 One of the most common issues shared by participants, no matter how much technical knowledge they had, was regarding fees instability.
 
@@ -1182,7 +1181,7 @@ Possible approaches to deal with this particular user problem can be:
 - Create programmable transactions based on fees, similar to orders you can place on an exchange. The user would choose something like "I want to send this transaction when the suggested market fee is lower than 5 dollars".
 - Allow users to set a warning threshold, such as "warn me every time the automatic fee is above 10 dollars."
 
-## Tense onboarding
+### Tense onboarding
 
 Being your own bank is a big responsibility, especially when we are talking about a completely digital system that is so intangible. Transmitting the weight of this responsibility to users, however, should not be done by terrifying them. Even if it is terrifying for some, it's simply counter-productive to make them feel nervous and scared.
 
@@ -1196,7 +1195,7 @@ If you knew that a user was like Emma, downloading a wallet for the first time j
 
 It all comes down to knowing your users and showing information in a useful and timely manner. If there's something they can do later, ask yourself if it's worth it forcing them into a cognitive overload before. Think of it like this: any measures you can take to make your user feel better at the onboarding will likely make them less nervous and less likely to make mistakes. So it is also a valid security measure to improve usability for them at this point.
 
-## Address validation
+### Address validation
 
 One of the most repeated issues concerning common wallet operations was the address verification performed when the user prepared to send a transaction. Multiple participants, among the ones with a less technical background, described how cumbersome it was to verify the address digit by digit before sending, assuming it was a necessary security step to avoid sending their money into nothingness.
 
@@ -1204,7 +1203,7 @@ It was undeniably surprising to encounter a significant pool of the participants
  
 Yet, somehow, we failed to communicate this intrinsic usability feature of Bitcoin to many users. Probably only those who studied how an address is formed get to learn about this. This is an opportunity to improve one of the most repetitive parts of the Bitcoin experience and could make a world of difference in a user's confidence and comfort when sending a transaction.
 
-## Educative vs. benefit-focused approaches
+### Educative vs. benefit-focused approaches
 
 An old dilemma for Bitcoin designers and creators is whether to teach users about Bitcoin and help them grow confidence by understanding important foundations or to create friendly and usable interfaces that don't require the user to understand anything about how Bitcoin works in order to use it.
 
@@ -1212,13 +1211,13 @@ During the interviews, an even more radical view on this dilemma was brought up 
 
 At the same time, in many places including these participants' countries, the usage of the Bitcoin name can surface negative feelings – because of scams and terrorist associations – or even government and bank bullying. These were the two main reasons for defending a mainstream financial solution with a hidden Bitcoin backbone. Whether it will make sense to follow this path or not, only the future will say.
 
-### My personal note on this
+#### My personal note on this
 
 Thinking only with a common startup product design mindset, I could find this approach appealing.
 
 However, as someone who's been around Bitcoin for some time, I'm personally very skeptical of making users unaware of the technologies they are using. This extreme push for usability is what makes most of us completely ignorant about the technologies we use and, therefore, completely dependent on companies and manufacturers to dictate how they'll be used. If Bitcoin still is about empowerment and financial independence for individuals, I'd be very careful about going down this road.
 
-## Human wallet
+### Human wallet
 
 During one of the interviews, a user pointed out that Bitcoin looks like it was made for machines and not humans. There is some truth in this if we think about all the hexes, hashes, and other similarly "non-friendly" strings that we need to interact in a Bitcoin journey. The Bitcoin address is probably the most iconic since it's the one we encounter with the highest frequency.
 
@@ -1226,7 +1225,7 @@ This is something that even protocol developers have worked on and made improvem
 
 So, even if we don't currently have a way out of using some of these machine-like codes, I'm confident that there are still solutions to be thought of that can improve users' lives. For example, could we divide and group address digits in a way that's easier for a human to parse? Or maybe show the checksum as a slightly separate group so they know what's more important to verify? These are unvalidated ideas, the purpose is to inspire the type of mindset you can have when thinking of a solution.
 
-## Feeling of support
+### Feeling of support
 
 Decentralization has a price, all of the interviewed users seemed to understand and accept that. But still, for those who experienced the traditional banking system at some point, the feeling of being all alone and having no one to call if something goes wrong haunts them at some point. Yet, most of them never actually made a mistake when using Bitcoin – apart from the accidental high fee mentioned before, which can be considered more a UX failure than a user mistake.
 
@@ -1240,11 +1239,11 @@ So how can we achieve something similar with Bitcoin? We'll never have a central
 
 - Focusing on merchants/service provider support. A respected and well-trusted merchant shouldn't need the credit card company to force a payment cancellation, they'll return the money themselves if there's a valid reason to do so. Have reasonable and transparent policies about this and your customers will trust you to be their support.
 
-## Leveraging positive experiences
+### Leveraging positive experiences
 
 Something important that we also got from the interviews was an opportunity not only to perceive the obstacles in a Bitcoin journey but also to understand what has been working well and which use cases are being successfully served.
 
-### International transactions
+#### International transactions
 
 It shouldn't come as a total surprise as this is one of the most commonly mentioned use cases for Bitcoin, but we've seen multiple examples of Bitcoin successfully bridging people in different economies as a pretty much seamless way of transacting.
 
@@ -1252,25 +1251,25 @@ From our set of interviews, we've mainly encountered a specific subset of intern
 
 Another use case we've found was the online merchant, who found Bitcoin an easy solution for accepting international payments. Although, in this example, we need to consider that the merchant was personally interested in Bitcoin and the store was Bitcoin themed. Therefore, it doesn't necessarily prove a success for all online merchants.
 
-### Underage usage
+#### Underage usage
 
 We've also had the opportunity to learn about underage users who were able to experience financial inclusion regardless of not being old enough to open a bank account. This can be interesting for financial awareness but it's also very important for a possibly needed independence depending on the young person's situation.
 
 As a positive side effect, we also get users who experience Bitcoin before experiencing the banking system. They won't have the same biases, preconceptions, and fears as someone who's used to banks and this will allow them to feel much more at ease with it. Bitcoin will be their first learned standard for finance and banking will be the complicated alternative they might have to deal with in the future.
 
-### Store of value
+#### Store of value
 
 Contrary to what many people say about Bitcoin being very volatile, we've heard from multiple – if not all – users that they trust Bitcoin to be a source of financial stability compared to the other options they have. Each user had their level of need, be it protection against normal levels of inflation, against high levels of inflation, or hyperinflation. It could be to protect their savings or to protect the money they have to spend regularly. But all had the perception that their money was bound to lose its value if it stayed in fiat and Bitcoin was the best alternative for them. No other cryptocurrency could achieve the same purpose either.
 
 Even though there are very volatile moments in Bitcoin, this is probably overseen by users because the overall tendency has been to have it increase in value. Fiat currencies, on the other hand, have proven to constantly deteriorate a person's purchasing power, even in considered strong economies. For people in devalued economies, the advantages of Bitcoin in this respect are even more clear.
 
-### Alternative to banks 
+#### Alternative to banks 
 
 This use case lives hand in hand with the last one for most users, but it's somewhat different and is not as strongly felt. Essentially, some users feel uneasiness towards the 'police power' held by banks which, in many places, can hold a transaction or even freeze an account on their interpretation of what looks suspicious. Being a mistake or not, the negative effects can range from unpleasant to devastating and the reverting process is usually an onus solely of the user.
 
 The independence of holding your Bitcoins releases users from this constant threat of having their access to money disrupted.
 
-# Conclusions
+## Conclusions
 
 As described at the beginning of this document, the purpose of our research effort was to bring a more human perspective into the current Bitcoin journey based on real people and their experiences. As much as we do our best as designers to make accurate assumptions about people and how they use the system we're studying, there's no better way to approach with confidence the problems we want to solve than to hear the truth straight from a user's mouth. 
 
@@ -1296,7 +1295,7 @@ For our set of interviewed users, these UX problems are not necessarily an imped
 
 Having as a foundation the slightly more concrete picture that we've been able to form of Bitcoin users, we hope that new solutions can be attempted to improve Bitcoin usability. The approaches can range from changes at the protocol level, at the interface level, or even at the level of user perspective. We can work on new solutions or continue improving ongoing efforts, such as the Lightning Network. There is a world of possibilities open and the final call to action we want to leave is to always have the following question in mind: what would your users think and what would they do about it?
 
-# Acknowledgments
+## Acknowledgments
 
 Out of respect for their personal and financial privacy, we didn't disclose the identities of any research participants. Nonetheless, an enormous word of gratitude is due to their willingness to share their data and their stories in favor of the creation of a successful public resource to help Bitcoin.
 
