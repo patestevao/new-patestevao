@@ -29,8 +29,14 @@ intro: "This research is meant to provide in-depth qualitative knowledge of how 
 * [User Stories](#user-stories)
     * [User bias](#user-bias)
     * [Demographics](#demographics)
-    * [User personas](#user-personas)
     * [Quotes and impressions](#quotes-and-impressions)
+
+* [User personas](#user-personas)
+    * [Musa](#musa)
+    * [Peter](#peter)
+    * [Ilse](#ilse)
+    * [Hugo](#hugo)
+    * [Emma](#emma)
 
 * [Recommendations](#recommendations)
     * [The fiat to crypto transition](#the-fiat-to-crypto-transition)
@@ -642,7 +648,51 @@ This refers to the user's primary reason, broadly speaking, for starting to use 
 - I use it for political reasons: 2 participant
 - None of the above
 
-### User personas
+### Quotes and impressions
+
+Although not every piece of content from the interviews needs to be reflected in this report, there are some interesting quotes and observations that we thought deserved some space. Some of them just didn't fit any persona for a cohesive profile, others show similarities between experiences even among the limited set of interviewees. 
+
+They are not to be taken as absolute truths but, hopefully, as helpful perceptions that people might have of the Bitcoin experience.
+
+> "Fear of BTC is like fear from the internet in its beginnings."
+A user on why people are afraid of using Bitcoin and why they will possibly get used to it once it's part of their daily lives, as it was with the e-mail and the internet as a whole.
+
+> "Widespread adoption needs to be cultural, the trust needs to comes from close people in your community. People need to feel related to others who use BTC."
+A user on why 'community evangelization' is much more powerful than trying to force education or a vision about a subject from a faraway centralized source.
+
+> "Staring with Bitcoin is a journey of discovery. It can be both fun or scary."
+A user on how the challenges of getting into Bitcoin can be perceived differently depending on the user's feelings and approach to it.
+
+> "I don't want to be a liability to myself."
+A user talking about their attitude and motivation for learning how to use Bitcoin and why the challenges needed to be faced heads on, without viewing them as a problem.
+
+> "As a user, I want to know what I need to do and perceive the value being offered."
+A user on why they don't feel the need to learn all technical aspects of Bitcoin and why they think widespread adoption will take this path of focusing more on the practical benefits than on the knowledge of how the technology works.
+
+> "Writing it down felt clandestine".
+User, with a humorous tone, talking about their experience writing down their seed back up. Especially given the alerts and recommendations that usually accompany this process.
+
+- Most users had experience – and some still have – with either manually typing addresses or copying and verifying all digits one by one. It's one of the most cumbersome tasks pointed out. The ones who do this are usually not highly technical users and are not aware of the address checksum validation.
+
+- Most users find that Bitcoin usability has improved over time. But, unless they already use Bitcoin for 5 or more years and have experienced some significant usability developments on the protocol level, this improvement seems more connected to them getting used to the Bitcoin routines and steps. In this case, the discomfort of using it disappears (or is drastically reduced). The reason for saying this is that, when showing their routine to other people, it will likely be received with confusion or skepticism. So it suggests that it is more a matter of learning than of Bitcoin usability as a whole having improved drastically over time.
+
+- Most interviewed users who had a relevant stake in Bitcoin were interested and went on personal study journeys to learn about the technology, its advancements, its challenges, its economic foundations, etc. It can be seen as a necessary step for them to further trust the system they are putting their money into. But also a way to better understand the best features and practices that can help them be more secure and feel more comfortable dealing with higher amounts of money. Interestingly enough, some of these users still advocate that technical knowledge is not needed to start using Bitcoin. So, from observing their experience, there's probably a moment where this interest should naturally come in when someone wants to deepen their financial commitment.
+
+- Most users first heard about Bitcoin on the internet in opposition to hearing it from a personal relationship. This can partially be explained by the fact that current users are still relatively early adopters, so it's not common to have a social circle where Bitcoin is a common topic.
+
+- A common usability issue between users is to, at some point, have unconsciously sent a transaction with a very high fee. We have no evidence of how Lightning Network might be impacting this in practice. But the stories seem to be mostly of times where Bitcoin cafes and other low-value merchants had no option unless settling transactions on-chain.
+
+- Most users who are open to using other cryptocurrencies perceive Bitcoin as the current standard for a strong and trustworthy store of value. The others are for ephemerous uses such as short-term trading or a special liquidity situation.
+
+- A very frequent source of anxiety, even when the technical reason is understood, is the uncertainty related to Bitcoin confirmation times.
+
+- Both from some participants' perspectives and from what they observed in their communities, the increase in value has also increased the impression of trustworthiness they have of Bitcoin.
+
+- None of the users feel they can use Bitcoin for daily expenses in a significant way. Consequently, the transition between Bitcoin and fiat is an inherent extra step of their journey if they want to make use of the money.
+
+- Some users are completely excluded from international finance due to their country's political and economic context and Bitcoin has proven to be a viable way for them to transact internationally. In the cases we interviewed, the use case was to be paid for work they performed for international companies, be it a wage or a freelance payment. Nevertheless, they don't consider it a solution that is commonly used by other people in their countries and is not a risk-free path for them personally.
+
+## User personas
 
 Given the results from the user interviews, we've gathered and combined the most interesting insights into 5 personas of current Bitcoin users. Making it 5 allowed us to reflect a variety of profiles and user roles without creating such a large number that would dissipate too much content and lose its value for a designer or other interested professional.
 
@@ -650,9 +700,11 @@ Each persona is completely fictional in the sense that it is formed by insights 
 
 As the personas have their profile and stories, we used mostly coherent characteristics that would make it plausible to see them as real people. Although we managed to place most of the desired insights into a persona, any relevant information that was left out is shared throughout this report in other sections.
 
-#### Musa
+### Musa
 
 ***The one for whom Bitcoin fits right in.***
+
+![Musa's picture](images/musa-picture.jpg)
 
 ##### Country 
 Nigeria
@@ -718,6 +770,7 @@ A second complaint is that Bitcoin is not very human, in his opinion. All import
 ##### Their Bitcoin onboarding user journey
 
 ![Musa's Bitcoin journey](images/Musa.png)
+[See large version at imgur](https://i.imgur.com/Z7zWFUr.png)
 
 ##### Specific frictions and usability pain points encountered
 - Lack of understanding of custodial risks.
@@ -727,9 +780,11 @@ A second complaint is that Bitcoin is not very human, in his opinion. All import
 ##### Feelings and keywords
 curiosity, empowerment, challenging, useful.
 
-#### Peter
+### Peter
 
 ***The all-in investor.***
+
+![Peter's picture](images/peter-picture.jpg)
 
 ##### Country 
 United Kingdom
@@ -791,6 +846,7 @@ Although he understands the reason, he still doesn't feel comfortable with the u
 ##### Their Bitcoin onboarding user journey
 
 ![Peter's Bitcoin journey](images/Peter.png)
+[See large version at imgur](https://i.imgur.com/m8e2DSj.png)
 
 ##### Specific frictions and usability pain points encountered
 - Complexity on crypto exchanges interfaces.
@@ -800,9 +856,11 @@ Although he understands the reason, he still doesn't feel comfortable with the u
 ##### Feelings and keywords 
 intimidating, stressful, discovery, learning, trust, solid.
 
-#### Ilse
+### Ilse
 
 ***The Bitcoin nerd.***
+
+![Ilse's picture](images/ilse-picture.jpg)
 
 ##### Country 
 Germany
@@ -868,6 +926,7 @@ Apart from that accident, she doesn't have giant complaints. But she noticed tha
 ##### Their Bitcoin onboarding user journey
 
 ![Ilse's Bitcoin journey](images/Ilse.png)
+[See large version at imgur](https://i.imgur.com/8xzbSSw.png)
 
 ##### Specific frictions and usability pain points encountered
 - Irreversibility of operations, especially from a programmer/command line point of view.
@@ -877,9 +936,11 @@ Apart from that accident, she doesn't have giant complaints. But she noticed tha
 ##### Feelings and keywords 
 passion, ideology, study, work
 
-#### Hugo
+### Hugo
 
 ***The one who started using without understanding it first.***
+
+![Hugo's picture](images/hugo-picture.jpg)
 
 ##### Country 
 Brazil
@@ -948,6 +1009,7 @@ As for spending, he only used Bitcoin directly for very specific purchases, such
 ##### Their Bitcoin onboarding user journey
 
 ![Hugo's Bitcoin journey](images/Hugo.png)
+[See large version at imgur](https://i.imgur.com/sGvvI9N.png)
 
 ##### Specific frictions and usability pain points encountered
 - Complex and unfriendly wallet set up.
@@ -956,9 +1018,11 @@ As for spending, he only used Bitcoin directly for very specific purchases, such
 
 ##### Feelings and keywords stability, insurance, fear, tension.
 
-#### Emma
+### Emma
 
 ***The one who lacks a compelling use-case.***
+
+![Emma's picture](images/emma-picture.jpg)
 
 ##### Country 
 USA
@@ -1019,6 +1083,7 @@ Her friend helped her set up the whole wallet, which meant direct guidance on do
 ##### Their Bitcoin onboarding user journey
 
 ![Emma's Bitcoin journey](images/Emma.png)
+[See large version at imgur](https://i.imgur.com/weeRPLG.png)
 
 ##### Specific frictions and usability pain points encountered
 - Trusting a decentralized system.
@@ -1057,50 +1122,6 @@ Try to imagine one of these people going about their business and how the soluti
 - How would one of them use your creation step by step? Can you identify possible difficulties they will have along the way?
 
 This rather simple exercise will help you uncover possible opportunities or points of improvement that you could work on.
-
-### Quotes and impressions
-
-Although not every piece of content from the interviews needs to be reflected in this report, there are some interesting quotes and observations that we thought deserved some space. Some of them just didn't fit any persona for a cohesive profile, others show similarities between experiences even among the limited set of interviewees. 
-
-They are not to be taken as absolute truths but, hopefully, as helpful perceptions that people might have of the Bitcoin experience.
-
-> "Fear of BTC is like fear from the internet in its beginnings."
-A user on why people are afraid of using Bitcoin and why they will possibly get used to it once it's part of their daily lives, as it was with the e-mail and the internet as a whole.
-
-> "Widespread adoption needs to be cultural, the trust needs to comes from close people in your community. People need to feel related to others who use BTC."
-A user on why 'community evangelization' is much more powerful than trying to force education or a vision about a subject from a faraway centralized source.
-
-> "Staring with Bitcoin is a journey of discovery. It can be both fun or scary."
-A user on how the challenges of getting into Bitcoin can be perceived differently depending on the user's feelings and approach to it.
-
-> "I don't want to be a liability to myself."
-A user talking about their attitude and motivation for learning how to use Bitcoin and why the challenges needed to be faced heads on, without viewing them as a problem.
-
-> "As a user, I want to know what I need to do and perceive the value being offered."
-A user on why they don't feel the need to learn all technical aspects of Bitcoin and why they think widespread adoption will take this path of focusing more on the practical benefits than on the knowledge of how the technology works.
-
-> "Writing it down felt clandestine".
-User, with a humorous tone, talking about their experience writing down their seed back up. Especially given the alerts and recommendations that usually accompany this process.
-
-- Most users had experience – and some still have – with either manually typing addresses or copying and verifying all digits one by one. It's one of the most cumbersome tasks pointed out. The ones who do this are usually not highly technical users and are not aware of the address checksum validation.
-
-- Most users find that Bitcoin usability has improved over time. But, unless they already use Bitcoin for 5 or more years and have experienced some significant usability developments on the protocol level, this improvement seems more connected to them getting used to the Bitcoin routines and steps. In this case, the discomfort of using it disappears (or is drastically reduced). The reason for saying this is that, when showing their routine to other people, it will likely be received with confusion or skepticism. So it suggests that it is more a matter of learning than of Bitcoin usability as a whole having improved drastically over time.
-
-- Most interviewed users who had a relevant stake in Bitcoin were interested and went on personal study journeys to learn about the technology, its advancements, its challenges, its economic foundations, etc. It can be seen as a necessary step for them to further trust the system they are putting their money into. But also a way to better understand the best features and practices that can help them be more secure and feel more comfortable dealing with higher amounts of money. Interestingly enough, some of these users still advocate that technical knowledge is not needed to start using Bitcoin. So, from observing their experience, there's probably a moment where this interest should naturally come in when someone wants to deepen their financial commitment.
-
-- Most users first heard about Bitcoin on the internet in opposition to hearing it from a personal relationship. This can partially be explained by the fact that current users are still relatively early adopters, so it's not common to have a social circle where Bitcoin is a common topic.
-
-- A common usability issue between users is to, at some point, have unconsciously sent a transaction with a very high fee. We have no evidence of how Lightning Network might be impacting this in practice. But the stories seem to be mostly of times where Bitcoin cafes and other low-value merchants had no option unless settling transactions on-chain.
-
-- Most users who are open to using other cryptocurrencies perceive Bitcoin as the current standard for a strong and trustworthy store of value. The others are for ephemerous uses such as short-term trading or a special liquidity situation.
-
-- A very frequent source of anxiety, even when the technical reason is understood, is the uncertainty related to Bitcoin confirmation times.
-
-- Both from some participants' perspectives and from what they observed in their communities, the increase in value has also increased the impression of trustworthiness they have of Bitcoin.
-
-- None of the users feel they can use Bitcoin for daily expenses in a significant way. Consequently, the transition between Bitcoin and fiat is an inherent extra step of their journey if they want to make use of the money.
-
-- Some users are completely excluded from international finance due to their country's political and economic context and Bitcoin has proven to be a viable way for them to transact internationally. In the cases we interviewed, the use case was to be paid for work they performed for international companies, be it a wage or a freelance payment. Nevertheless, they don't consider it a solution that is commonly used by other people in their countries and is not a risk-free path for them personally.
 
 ## Recommendations
 
