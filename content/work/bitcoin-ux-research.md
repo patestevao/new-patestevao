@@ -302,7 +302,7 @@ However, this is not the most interesting aspect of this data as we can only mak
 
 In total, we interviewed 21 participants from multiple locations around the world. According to the answers from the screening questionnaire, their demographic profile varied in the following:
 
-###### Origin or country of residence
+#### Origin or country of residence
 
 This refers to the location where this user has had the most experience using Bitcoin and has some understanding of the social context, be it their country of origin or not. The countries reached were: 
 - Australia
@@ -328,7 +328,7 @@ This refers to the location where this user has had the most experience using Bi
 
 For better contextualization, we've gathered some basic information about each of these countries. All of the data comes from Wikipedia and this research is merely reproducing without questioning any of them.
 
-###### Australia
+##### Australia
 
 **Population:** 25,837,549
 
@@ -360,7 +360,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 38% of GDP
 
-###### Germany
+##### Germany
 
 **Population:** 83,121,363
 
@@ -376,7 +376,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 165% of GDP
 
-###### Greece
+##### Greece
 
 **Population:** 10,718,565
 
@@ -392,7 +392,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 298% of GDP
 
-###### Israel
+##### Israel
 
 **Population:** 9,376,994
 
@@ -408,7 +408,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 33% of GDP
 
-###### Italy
+##### Italy
 
 **Population:** 59,169,131
 
@@ -424,7 +424,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 141% of GDP
 
-###### Kenya
+##### Kenya
 
 **Population:** 47,564,296
 
@@ -440,7 +440,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 26% of GDP
 
-###### Mexico
+##### Mexico
 
 **Population:** 126,014,024
 
@@ -456,7 +456,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 43% of GDP
 
-###### Nigeria
+##### Nigeria
 
 **Population:** 211,401,000
 
@@ -472,7 +472,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 2% of GDP
 
-###### Philippines
+##### Philippines
 
 **Population:** 110,543,395
 
@@ -488,7 +488,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 27% of GDP
 
-###### Portugal
+##### Portugal
 
 **Population:** 10,298,252
 
@@ -504,7 +504,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 203% of GDP
 
-###### Romania
+##### Romania
 
 **Population:** 19,317,984
 
@@ -520,7 +520,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 58% of GDP
 
-###### Spain
+##### Spain
 
 **Population:** 47,394,223
 
@@ -536,7 +536,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 170% of GDP
 
-###### Syria
+##### Syria
 
 **Population:** 18,276,000
 
@@ -552,7 +552,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 24% of GDP
 
-###### United Kingdom
+##### United Kingdom
 
 **Population:** 67,081,234
 
@@ -568,7 +568,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 345% of GDP
 
-###### United States
+##### United States
 
 **Population:** 332,085,405
 
@@ -584,7 +584,7 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 102% of GDP
 
-###### Venezuela
+##### Venezuela
 
 **Population:** 28,705,000
 
@@ -600,14 +600,18 @@ For better contextualization, we've gathered some basic information about each o
 
 **External debt relative to GDP:** 23% of GDP
 
-**Sources for the country data:**
+##### Sources for the countries data:
 [Population](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population)
+
 [GDP per capita](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita)
+
 [Inflation rate](https://en.wikipedia.org/wiki/List_of_countries_by_inflation_rate)
+
 [External debt](https://en.wikipedia.org/wiki/List_of_countries_by_external_debt)
+
 [Currencies exchange rates – July 28th, 2021](https://www.x-rates.com/table/?from=USD&amount=1)
 
-##### Work profile
+#### Work profile
 
 This refers to their broad professional actuation area.
 - STEM (science, technology, engineering, and mathematics): 7 participants
@@ -617,7 +621,7 @@ This refers to their broad professional actuation area.
 - Business: 3 participants
 - Art and design: 5 participants
 
-##### First Bitcoin usage
+#### First Bitcoin usage
 
 This refers to the broad period when the person used Bitcoin for the first time, which doesn't necessarily correspond to the first time they heard about Bitcoin.
 - Before 2017: 5 participants
@@ -627,7 +631,7 @@ This refers to the broad period when the person used Bitcoin for the first time,
 
 * Even though the proposal was to only interview people who had already used Bitcoin at least once, there was one exception of an interesting profile we happened to come by and decided to incorporate into the research. This was someone familiar with Bitcoin, had a wallet installed, had a backup, had received a small transaction, but didn't feel had enough incentives to overcome the usability challenges they found. As such, it was deemed as an opportunity to further enrich the research insights.
 
-##### Frequency of usage
+#### Frequency of usage
 
 This refers to the overall frequency of Bitcoin transactions, be it sending or receiving, the participant usually engages in:
 
@@ -637,7 +641,7 @@ This refers to the overall frequency of Bitcoin transactions, be it sending or r
 - Once every few months: 5 participants
 - Even less than the above options: 1 participant
 
-##### Main Bitcoin use case
+#### Main Bitcoin use case
 
 This refers to the user's primary reason, broadly speaking, for starting to use Bitcoin, even if other use cases co-exist nowadays:
 
@@ -654,24 +658,43 @@ Although not every piece of content from the interviews needs to be reflected in
 
 They are not to be taken as absolute truths but, hopefully, as helpful perceptions that people might have of the Bitcoin experience.
 
+#### Quotes
+
 > "Fear of BTC is like fear from the internet in its beginnings."
-A user on why people are afraid of using Bitcoin and why they will possibly get used to it once it's part of their daily lives, as it was with the e-mail and the internet as a whole.
+>
+> A user on why people are afraid of using Bitcoin and why they will possibly get used to it once it's part of their daily lives, as it was with the e-mail and the internet as a whole.
+
+&nbsp;  
 
 > "Widespread adoption needs to be cultural, the trust needs to comes from close people in your community. People need to feel related to others who use BTC."
-A user on why 'community evangelization' is much more powerful than trying to force education or a vision about a subject from a faraway centralized source.
+>
+> A user on why 'community evangelization' is much more powerful than trying to force education or a vision about a subject from a faraway centralized source.
+
+&nbsp;  
 
 > "Staring with Bitcoin is a journey of discovery. It can be both fun or scary."
-A user on how the challenges of getting into Bitcoin can be perceived differently depending on the user's feelings and approach to it.
+>
+> A user on how the challenges of getting into Bitcoin can be perceived differently depending on the user's feelings and approach to it.
+
+&nbsp;  
 
 > "I don't want to be a liability to myself."
-A user talking about their attitude and motivation for learning how to use Bitcoin and why the challenges needed to be faced heads on, without viewing them as a problem.
+>
+> A user talking about their attitude and motivation for learning how to use Bitcoin and why the challenges needed to be faced heads on, without viewing them as a problem.
+  
+&nbsp;  
 
 > "As a user, I want to know what I need to do and perceive the value being offered."
-A user on why they don't feel the need to learn all technical aspects of Bitcoin and why they think widespread adoption will take this path of focusing more on the practical benefits than on the knowledge of how the technology works.
+>
+> A user on why they don't feel the need to learn all technical aspects of Bitcoin and why they think widespread adoption will take this path of focusing more on the practical benefits than on the knowledge of how the technology works.
+
+&nbsp;  
 
 > "Writing it down felt clandestine".
-User, with a humorous tone, talking about their experience writing down their seed back up. Especially given the alerts and recommendations that usually accompany this process.
+>
+> User, with a humorous tone, talking about their experience writing down their seed back up. Especially given the alerts and recommendations that usually accompany this process.
 
+#### Impressions
 - Most users had experience – and some still have – with either manually typing addresses or copying and verifying all digits one by one. It's one of the most cumbersome tasks pointed out. The ones who do this are usually not highly technical users and are not aware of the address checksum validation.
 
 - Most users find that Bitcoin usability has improved over time. But, unless they already use Bitcoin for 5 or more years and have experienced some significant usability developments on the protocol level, this improvement seems more connected to them getting used to the Bitcoin routines and steps. In this case, the discomfort of using it disappears (or is drastically reduced). The reason for saying this is that, when showing their routine to other people, it will likely be received with confusion or skepticism. So it suggests that it is more a matter of learning than of Bitcoin usability as a whole having improved drastically over time.
@@ -778,7 +801,8 @@ A second complaint is that Bitcoin is not very human, in his opinion. All import
 - Machine-focused elements, such as addresses and hashes.
 
 ##### Feelings and keywords
-curiosity, empowerment, challenging, useful.
+
+*curiosity, empowerment, challenging, useful*
 
 ### Peter
 
@@ -854,7 +878,8 @@ Although he understands the reason, he still doesn't feel comfortable with the u
 - Pressure into knowing how to keep your backup safe.
 
 ##### Feelings and keywords 
-intimidating, stressful, discovery, learning, trust, solid.
+
+*intimidating, stressful, discovery, learning, trust, solid*
 
 ### Ilse
 
@@ -934,7 +959,8 @@ Apart from that accident, she doesn't have giant complaints. But she noticed tha
 - Lack of better ways to track transaction history.
 
 ##### Feelings and keywords 
-passion, ideology, study, work
+
+*passion, ideology, study, work*
 
 ### Hugo
 
@@ -1016,7 +1042,9 @@ As for spending, he only used Bitcoin directly for very specific purchases, such
 - High or unpredictable confirmation times.
 - Lacks the feeling of support from centralized institutions.
 
-##### Feelings and keywords stability, insurance, fear, tension.
+##### Feelings and keywords 
+
+*stability, insurance, fear, tension*
 
 ### Emma
 
@@ -1092,7 +1120,9 @@ Her friend helped her set up the whole wallet, which meant direct guidance on do
 - Making the transition between fiat and Bitcoin.
 - Perceived complexity of the backup and recovery processes.
 
-##### Feelings and keywords skepticism, cumbersome, unpractical.
+##### Feelings and keywords
+
+*skepticism, cumbersome, unpractical*
 
 #### How to interpret and use the personas
 
@@ -1296,19 +1326,19 @@ As described at the beginning of this document, the purpose of our research effo
 
 Looking back into our three research questions posed in the Objectives section, we can summarize the results we encountered and which have been thoroughly explored in previous sections.
 
-1. What are the customer problems behind Bitcoin usage, i.e., what motivated people to use it in the first place?
+**1. What are the customer problems behind Bitcoin usage, i.e., what motivated people to use it in the first place?**
 
 Even though user motivations are not limited to the ones we uncovered here, we can highlight that distrust and dissatisfaction with the current financial system in conjunction with a desire to preserve purchasing power are a powerful combination onboard people into Bitcoin. 
 
 Other customer problems, which can easily coexist with the previous one are a lack of good investment options in their reach; a fear of banking "police power" and government censorship on money usage; and a desire for a tool and a personal mission that could help address the previous issues. 
 
-2. What are people’s main goals in their Bitcoin journey?
+**2. What are people’s main goals in their Bitcoin journey?**
 
 Obeying the same order as the previous answer, each of those customer problems correlates with a user goal. The first is, in essence, to have access to sound money. People want to be able to trust that their money will not be at the mercy of decision-makers that can easily dictate their future wealth based on questionable decisions.
 
 As for the other goals: they have an interest in increasing their purchasing power (i.e. make money); an interest in privacy and freedom of transacting; and an interest in the technology as a tool for the previous goals but from a creator perspective (i.e. people who want to work with Bitcoin).
 
-3. What are the main struggles that people find in their Bitcoin journey?
+**3. What are the main struggles that people find in their Bitcoin journey?**
 
 Here is where we enter into the UX problems that stand between users and their goals. Leaving the detailed and contextual list of issues for the previous sections, we can mention big issues instead: the constant need and burdens of transitioning between fiat and Bitcoin, the uncertainties from the Bitcoin system itself (fees, confirmation times), and the weight of the responsibility for digital money that needs to be kept safe.
 
